@@ -4,3 +4,4 @@ runtime! autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles() 
 
 
+colorscheme darkburn
