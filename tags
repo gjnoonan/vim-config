@@ -1,0 +1,1527 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.	home/.vim/bundle/vim-repeat/autoload/repeat.vim	/^nnoremap <silent> .     :<C-U>call <SID>repeat(v:count)<CR>$/;"	m
+<C-A>	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^    nmap  <C-A>     <Plug>SpeedDatingUp$/;"	m
+<C-G>S	home/.vim/bundle/vim-surround/plugin/surround.vim	/^  imap      <C-G>S <Plug>ISurround$/;"	m
+<C-G>s	home/.vim/bundle/vim-surround/plugin/surround.vim	/^  imap      <C-G>s <Plug>Isurround$/;"	m
+<C-R>	home/.vim/bundle/vim-repeat/autoload/repeat.vim	/^nnoremap <silent> <C-R> :<C-U>call <SID>wrap("\\<Lt>C-R>",v:count)<CR>$/;"	m
+<C-S>	home/.vim/bundle/vim-surround/plugin/surround.vim	/^    imap    <C-S> <Plug>Isurround$/;"	m
+<C-V>%	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^  imap     <C-V>%      <Plug>ragtagUrlV$/;"	m
+<C-V>&	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^  imap     <C-V>&      <Plug>ragtagXmlV$/;"	m
+<C-X>	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^    nmap  <C-X>     <Plug>SpeedDatingDown$/;"	m
+<C-X>%	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^  imap     <C-X>%      <Plug>ragtagUrlEncode$/;"	m
+<C-X>&	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^  imap     <C-X>&      <Plug>ragtagXmlEncode$/;"	m
+<C-X>/	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^  imap     <C-X>\/    <\/<Plug>ragtagHtmlComplete$/;"	m
+<C-X><CR>	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^    imap <C-X><CR> <CR><Plug>AlwaysEnd$/;"	m
+<C-X>H	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^  imap     <C-X>H      <Plug>ragtagHtmlComplete$/;"	m
+<CR>	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^    imap <CR>      <CR><Plug>DiscretionaryEnd$/;"	m
+<Leader>sE	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>sE <Plug>DBExecSQLUnderTopXCursor$/;"	m
+<Leader>sT	home/.vim/plugin/dbext.vim	/^        nmap <unique> <Leader>sT <Plug>DBSelectFromTopXTable$/;"	m
+<Leader>sal	home/.vim/plugin/dbext.vim	/^        nmap <unique> <silent> <Leader>sal :.,.DBVarRangeAssign<CR>$/;"	m
+<Leader>sap	home/.vim/plugin/dbext.vim	/^        nmap <unique> <silent> <Leader>sap :'<,'>DBVarRangeAssign<CR>$/;"	m
+<Leader>sas	home/.vim/plugin/dbext.vim	/^        nmap <unique> <silent> <Leader>sas :1,$DBVarRangeAssign<CR>$/;"	m
+<Leader>sbp	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>sbp <Plug>DBPromptForBufferParameters$/;"	m
+<Leader>sdp	home/.vim/plugin/dbext.vim	/^        nmap <unique> <Leader>sdp <Plug>DBDescribeProcedure$/;"	m
+<Leader>sdpa	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>sdpa <Plug>DBDescribeProcedureAskName$/;"	m
+<Leader>sdt	home/.vim/plugin/dbext.vim	/^        nmap <unique> <Leader>sdt <Plug>DBDescribeTable$/;"	m
+<Leader>sdta	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>sdta <Plug>DBDescribeTableAskName$/;"	m
+<Leader>se	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>se <Plug>DBExecSQLUnderCursor$/;"	m
+<Leader>sea	home/.vim/plugin/dbext.vim	/^        nmap <unique> <silent> <Leader>sea :1,$DBExecRangeSQL<CR>$/;"	m
+<Leader>sel	home/.vim/plugin/dbext.vim	/^        nmap <unique> <silent> <Leader>sel :.,.DBExecRangeSQL<CR>$/;"	m
+<Leader>sep	home/.vim/plugin/dbext.vim	/^        nmap <unique> <silent> <Leader>sep :'<,'>DBExecRangeSQL<CR>$/;"	m
+<Leader>sh	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>sh <Plug>DBHistory$/;"	m
+<Leader>slc	home/.vim/plugin/dbext.vim	/^        nmap <unique> <Leader>slc <Plug>DBListColumn$/;"	m
+<Leader>slp	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>slp <Plug>DBListProcedure$/;"	m
+<Leader>slr	home/.vim/plugin/dbext.vim	/^        nmap <unique> <silent> <Leader>slr :DBListVar<CR>$/;"	m
+<Leader>slt	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>slt <Plug>DBListTable$/;"	m
+<Leader>slv	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>slv <Plug>DBListView$/;"	m
+<Leader>so	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>so <Plug>DBOrientationToggle$/;"	m
+<Leader>sq	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>sq <Plug>DBExecSQL$/;"	m
+<Leader>st	home/.vim/plugin/dbext.vim	/^        nmap <unique> <Leader>st <Plug>DBSelectFromTable$/;"	m
+<Leader>sta	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>sta <Plug>DBSelectFromTableAskName$/;"	m
+<Leader>stcl	home/.vim/plugin/dbext.vim	/^        nmap <unique> <Leader>stcl <Plug>DBListColumn$/;"	m
+<Leader>stw	home/.vim/plugin/dbext.vim	/^    nmap <unique> <Leader>stw <Plug>DBSelectFromTableWithWhere$/;"	m
+<Leader>t	home/.vim/bundle/vim-makegreen/plugin/makegreen.vim	/^  map <unique> <silent> <Leader>t <Plug>MakeGreen$/;"	m
+<M-o>	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^    inoremap <M-o> <C-O>o$/;"	m
+<Plug>AlwaysEnd	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^    imap    <script> <Plug>AlwaysEnd        <SID>AlwaysEnd$/;"	m
+<Plug>Coerce	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^nnoremap <silent> <Plug>Coerce :<C-U>call <SID>coerce(nr2char(getchar()))<CR>$/;"	m
+<Plug>Csurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>Csurround  :<C-U>call <SID>changesurround()<CR>$/;"	m
+<Plug>DBDescribeProcedure	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBDescribeProcedure :DBDescribeProcedure<CR>$/;"	m
+<Plug>DBDescribeProcedureAskName	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBDescribeProcedureAskName$/;"	m
+<Plug>DBDescribeTable	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBDescribeTable :DBDescribeTable<CR>$/;"	m
+<Plug>DBDescribeTableAskName	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBDescribeTableAskName$/;"	m
+<Plug>DBExecSQL	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBExecSQL :DBExecSQL<CR>$/;"	m
+<Plug>DBExecSQLUnderCursor	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBExecSQLUnderCursor :DBExecSQLUnderCursor<CR>$/;"	m
+<Plug>DBExecSQLUnderTopXCursor	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBExecSQLUnderTopXCursor :DBExecSQLUnderCursorTopX<CR>$/;"	m
+<Plug>DBHistory	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBHistory :DBHistory<CR>$/;"	m
+<Plug>DBListColumn	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBListColumn :DBListColumn<CR>$/;"	m
+<Plug>DBListProcedure	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBListProcedure$/;"	m
+<Plug>DBListTable	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBListTable$/;"	m
+<Plug>DBListView	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBListView$/;"	m
+<Plug>DBOrientationToggle	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBOrientationToggle :DBOrientationToggle<CR>$/;"	m
+<Plug>DBPromptForBufferParameters	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBPromptForBufferParameters$/;"	m
+<Plug>DBSelectFromTable	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBSelectFromTable :DBSelectFromTable<CR>$/;"	m
+<Plug>DBSelectFromTableAskName	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBSelectFromTableAskName$/;"	m
+<Plug>DBSelectFromTableWithWhere	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBSelectFromTableWithWhere$/;"	m
+<Plug>DBSelectFromTopXTable	home/.vim/plugin/dbext.vim	/^    nmap <unique> <script> <Plug>DBSelectFromTopXTable :DBSelectFromTableTopX<CR>$/;"	m
+<Plug>DiscretionaryEnd	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^    imap    <script> <Plug>DiscretionaryEnd <SID>DiscretionaryEnd$/;"	m
+<Plug>Dsurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>Dsurround  :<C-U>call <SID>dosurround(<SID>inputtarget())<CR>$/;"	m
+<Plug>ISurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^inoremap <silent> <Plug>ISurround  <C-R>=<SID>insert(1)<CR>$/;"	m
+<Plug>Isurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^inoremap <silent> <Plug>Isurround  <C-R>=<SID>insert()<CR>$/;"	m
+<Plug>MakeGreen	home/.vim/bundle/vim-makegreen/plugin/makegreen.vim	/^noremap <unique> <script> <Plug>MakeGreen <SID>Make$/;"	m
+<Plug>SpeedDatingDown	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^nnoremap <silent> <Plug>SpeedDatingDown :<C-U>call <SID>increment(-v:count1)<CR>$/;"	m
+<Plug>SpeedDatingDown	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^vnoremap <silent> <Plug>SpeedDatingDown :<C-U>call <SID>incrementvisual(-v:count1)<CR>$/;"	m
+<Plug>SpeedDatingNowLocal	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^nnoremap <silent> <Plug>SpeedDatingNowLocal :<C-U>call <SID>timestamp(0,v:count)<CR>$/;"	m
+<Plug>SpeedDatingNowUTC	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^nnoremap <silent> <Plug>SpeedDatingNowUTC   :<C-U>call <SID>timestamp(1,v:count)<CR>$/;"	m
+<Plug>SpeedDatingUp	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^nnoremap <silent> <Plug>SpeedDatingUp   :<C-U>call <SID>increment(v:count1)<CR>$/;"	m
+<Plug>SpeedDatingUp	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^vnoremap <silent> <Plug>SpeedDatingUp   :<C-U>call <SID>incrementvisual(v:count1)<CR>$/;"	m
+<Plug>VSurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^vnoremap <silent> <Plug>VSurround  :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>$/;"	m
+<Plug>VgSurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^vnoremap <silent> <Plug>VgSurround :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 0 : 1)<CR>$/;"	m
+<Plug>Vsurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^vnoremap <silent> <Plug>Vsurround  :<C-U>call <SID>opfunc(visualmode())<CR>$/;"	m
+<Plug>YSsurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>YSsurround :<C-U>call <SID>opfunc2(v:count1)<CR>$/;"	m
+<Plug>YSurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>YSurround  :<C-U>set opfunc=<SID>opfunc2<CR>g@$/;"	m
+<Plug>Yssurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>Yssurround :<C-U>call <SID>opfunc(v:count1)<CR>$/;"	m
+<Plug>Ysurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^nnoremap <silent> <Plug>Ysurround  :<C-U>set opfunc=<SID>opfunc<CR>g@$/;"	m
+<Plug>ragtagBSUrl	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^inoremap <silent> <Plug>ragtagBSUrl     <C-R>=<SID>bspattern('%\\x\\x\\=\\<Bar>&amp;')<CR>$/;"	m
+<Plug>ragtagBSXml	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^inoremap <silent> <Plug>ragtagBSXml     <C-R>=<SID>bspattern('&#\\=\\w*;\\<Bar><[^><]*>\\=')<CR>$/;"	m
+<Plug>ragtagHtmlComplete	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^inoremap <silent> <Plug>ragtagHtmlComplete <C-R>=<SID>htmlEn()<CR><C-X><C-O><C-P><C-R>=<SID>htmlDis()<CR><C-N>$/;"	m
+<Plug>ragtagUrlEncode	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^inoremap <silent> <Plug>ragtagUrlEncode <C-R>=<SID>toggleurlescape()<CR>$/;"	m
+<Plug>ragtagUrlV	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^inoremap <silent> <Plug>ragtagUrlV      <C-R>=<SID>urlv()<CR>$/;"	m
+<Plug>ragtagXmlEncode	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^inoremap <silent> <Plug>ragtagXmlEncode <C-R>=<SID>togglexmlescape()<CR>$/;"	m
+<Plug>ragtagXmlV	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^inoremap <silent> <Plug>ragtagXmlV      <C-R>="&#".getchar().";"<CR>$/;"	m
+<SID>AlwaysEnd	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^    inoremap <silent> <SID>AlwaysEnd        <C-R>=<SID>crend(1)<CR>$/;"	m
+<SID>DiscretionaryEnd	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^    inoremap <silent> <SID>DiscretionaryEnd <C-R>=<SID>crend(0)<CR>$/;"	m
+<SID>Make	home/.vim/bundle/vim-makegreen/plugin/makegreen.vim	/^noremap <SID>Make :call <SID>RunMake()<CR>$/;"	m
+<SID>ragtagUrlEncode	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^inoremap <silent>  <SID>ragtagUrlEncode <C-R>=<SID>toggleurlescape()<CR>$/;"	m
+<SID>ragtagXmlEncode	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^inoremap <silent>  <SID>ragtagXmlEncode <C-R>=<SID>togglexmlescape()<CR>$/;"	m
+<SID>urlspace	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^inoremap <silent> <SID>urlspace <C-R>=<SID>getinput()=~?'\\%([?&]\\<Bar>&amp;\\)[%a-z0-9._~+-]*=[%a-z0-9._~+-]*$'?'+':'%20'<CR>$/;"	m
+<SID>xx	home/.vim/bundle/vim-rails/autoload/rails.vim	/^map <SID>xx <SID>xx$/;"	m
+Abbrev	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Abbrev(bang,...) abort$/;"	f
+Abolish	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^    let Abolish = {}$/;"	v
+Abolish	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^command! -nargs=+ -bang -bar -range=0 -complete=custom,s:Complete Abolish$/;"	c
+Abolished	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! Abolished()$/;"	f
+AddBracketExpand	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:AddBracketExpand(abbr,expn)$/;"	f
+AddColonExpand	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:AddColonExpand(abbr,expn)$/;"	f
+AddParenExpand	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:AddParenExpand(abbr,expn,...)$/;"	f
+AddSelectiveExpand	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:AddSelectiveExpand(abbr,pat,expn,...)$/;"	f
+AddTabExpand	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:AddTabExpand(abbr,expn)$/;"	f
+AllmlInit	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! AllmlInit()$/;"	f
+Alter	home/.vim/plugin/dbext.vim	/^command! -nargs=+ -complete=customlist,dbext#DB_completeTables Alter             :call dbext#DB_execSql("alter " . <q-args>)$/;"	c
+Alternate	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Alternate(cmd,line1,line2,count,...)$/;"	f
+Bar	home/.vim/bundle/vim-makegreen/plugin/makegreen.vim	/^function s:Bar(type, msg)$/;"	f
+Blame	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Blame(bang,line1,line2,count,args) abort$/;"	f
+BlameJump	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BlameJump(suffix) abort$/;"	f
+BlameSyntax	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BlameSyntax() abort$/;"	f
+Bookmark.AddBookmark	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.AddBookmark(name, path)$/;"	f
+Bookmark.BookmarkExistsFor	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.BookmarkExistsFor(name)$/;"	f
+Bookmark.BookmarkFor	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.BookmarkFor(name)$/;"	f
+Bookmark.BookmarkNames	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.BookmarkNames()$/;"	f
+Bookmark.Bookmarks	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.Bookmarks()$/;"	f
+Bookmark.CacheBookmarks	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.CacheBookmarks(silent)$/;"	f
+Bookmark.ClearAll	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.ClearAll()$/;"	f
+Bookmark.GetNodeForName	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.GetNodeForName(name, searchFromAbsoluteRoot)$/;"	f
+Bookmark.GetSelected	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.GetSelected()$/;"	f
+Bookmark.InvalidBookmarks	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.InvalidBookmarks()$/;"	f
+Bookmark.New	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.New(name, path)$/;"	f
+Bookmark.Sort	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.Sort()$/;"	f
+Bookmark.ToRoot	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.ToRoot(name)$/;"	f
+Bookmark.Write	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.Write()$/;"	f
+Bookmark.activate	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.activate()$/;"	f
+Bookmark.compareTo	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.compareTo(otherbookmark)$/;"	f
+Bookmark.delete	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.delete()$/;"	f
+Bookmark.getNode	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.getNode(searchFromAbsoluteRoot)$/;"	f
+Bookmark.mustExist	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.mustExist()$/;"	f
+Bookmark.openInNewTab	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.openInNewTab(options)$/;"	f
+Bookmark.setPath	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.setPath(path)$/;"	f
+Bookmark.str	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.str()$/;"	f
+Bookmark.toRoot	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.toRoot()$/;"	f
+Bookmark.validate	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.validate()$/;"	f
+BufAbbreviations	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufAbbreviations()$/;"	f
+BufCommands	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufCommands()$/;"	f
+BufDatabase	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufDatabase(...)$/;"	f
+BufFinderCommands	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufFinderCommands()$/;"	f
+BufInit	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:BufInit(path)$/;"	f
+BufInitStatusline	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufInitStatusline()$/;"	f
+BufMappings	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufMappings()$/;"	f
+BufModelines	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufModelines()$/;"	f
+BufNavCommands	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufNavCommands()$/;"	f
+BufReadIndex	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BufReadIndex()$/;"	f
+BufReadIndexFile	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BufReadIndexFile()$/;"	f
+BufReadObject	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BufReadObject()$/;"	f
+BufScriptWrappers	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufScriptWrappers()$/;"	f
+BufSettings	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufSettings()$/;"	f
+BufSyntax	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:BufSyntax()$/;"	f
+BufWriteIndexFile	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BufWriteIndexFile()$/;"	f
+Call	home/.vim/plugin/dbext.vim	/^command! -nargs=+ Call              :call dbext#DB_execSql("call " . <q-args>)$/;"	c
+CommandEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:CommandEdit(cmd,name,prefix,suffix,filter,default,...)$/;"	f
+CommandList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:CommandList(A,L,P)$/;"	f
+Commit	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Commit(args) abort$/;"	f
+CommitComplete	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:CommitComplete(A,L,P) abort$/;"	f
+Complete	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:Complete(A,L,P)$/;"	f
+Complete_cd	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_cd(ArgLead, CmdLine, CursorPos)$/;"	f
+Complete_console	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_console(A,L,P)$/;"	f
+Complete_destroy	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_destroy(A,L,P)$/;"	f
+Complete_edit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_edit(ArgLead, CmdLine, CursorPos)$/;"	f
+Complete_environments	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_environments(...)$/;"	f
+Complete_find	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_find(ArgLead, CmdLine, CursorPos)$/;"	f
+Complete_generate	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_generate(A,L,P)$/;"	f
+Complete_preview	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_preview(A,L,P)$/;"	f
+Complete_rake	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_rake(A,L,P)$/;"	f
+Complete_related	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_related(A,L,P)$/;"	f
+Complete_ruby	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_ruby(A,L,P)$/;"	f
+Complete_script	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_script(ArgLead,CmdLine,P)$/;"	f
+Complete_server	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_server(A,L,P)$/;"	f
+Complete_set	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Complete_set(A,L,P)$/;"	f
+Create	home/.vim/plugin/dbext.vim	/^command! -nargs=+ Create            :call dbext#DB_execSql("create " . <q-args>)$/;"	c
+CreateMenus	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:CreateMenus() abort$/;"	f
+CustomComplete	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:CustomComplete(A,L,P,cmd)$/;"	f
+DBCheckModeline	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBCheckModeline$/;"	c
+DBCommit	home/.vim/plugin/dbext.vim	/^command! -nargs=0 DBCommit          :call dbext#DB_commit()$/;"	c
+DBCompleteProcedures	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 -bang DBCompleteProcedures$/;"	c
+DBCompleteTables	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 -bang DBCompleteTables$/;"	c
+DBCompleteViews	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 -bang DBCompleteViews$/;"	c
+DBConnect	home/.vim/plugin/dbext.vim	/^command! -nargs=0 DBConnect         :call dbext#DB_connect()$/;"	c
+DBDescribeProcedure	home/.vim/plugin/dbext.vim	/^    command! -nargs=* -range DBDescribeProcedure$/;"	c
+DBDescribeProcedureAskName	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBDescribeProcedureAskName$/;"	c
+DBDescribeTable	home/.vim/plugin/dbext.vim	/^    command! -nargs=* -range DBDescribeTable$/;"	c
+DBDescribeTableAskName	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBDescribeTableAskName$/;"	c
+DBDisconnect	home/.vim/plugin/dbext.vim	/^command! -nargs=0 DBDisconnect      :call dbext#DB_disconnect()$/;"	c
+DBExecRangeSQL	home/.vim/plugin/dbext.vim	/^command! -range -nargs=0 DBExecRangeSQL <line1>,<line2>call dbext#DB_execRangeSql()$/;"	c
+DBExecSQL	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBExecSQL$/;"	c
+DBExecSQL	home/.vim/plugin/dbext.vim	/^command! -nargs=+ DBExecSQL         :call dbext#DB_execSql(<q-args>)$/;"	c
+DBExecSQLTopX	home/.vim/plugin/dbext.vim	/^command! -nargs=+ DBExecSQLTopX     :call dbext#DB_execSqlTopX(<q-args>)$/;"	c
+DBExecSQLUnderCursor	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBExecSQLUnderCursor$/;"	c
+DBExecSQLUnderCursorTopX	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBExecSQLUnderCursorTopX$/;"	c
+DBExecVisualSQL	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 -range DBExecVisualSQL :call dbext#DB_execSql(DB_getVisualBlock())$/;"	c
+DBExecVisualSQLTopX	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 -range DBExecVisualSQLTopX :call dbext#DB_execSqlTopX(DB_getVisualBlock())$/;"	c
+DBGetOption	home/.vim/plugin/dbext.vim	/^command! -nargs=* -complete=customlist,dbext#DB_completeSettings DBGetOption :echo DB_listOption(<q-args>)$/;"	c
+DBGetOption	home/.vim/plugin/dbext.vim	/^command! -nargs=? DBGetOption       :echo DB_listOption(<q-args>)$/;"	c
+DBHistory	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBHistory$/;"	c
+DBListColumn	home/.vim/plugin/dbext.vim	/^    command! -nargs=* DBListColumn$/;"	c
+DBListConnections	home/.vim/plugin/dbext.vim	/^command! -nargs=0 DBListConnections :call dbext#DB_getListConnections()$/;"	c
+DBListProcedure	home/.vim/plugin/dbext.vim	/^    command! -nargs=? DBListProcedure$/;"	c
+DBListTable	home/.vim/plugin/dbext.vim	/^    command! -nargs=? DBListTable$/;"	c
+DBListVar	home/.vim/plugin/dbext.vim	/^command! -nargs=0 DBListVar         :call dbext#DB_sqlVarList()$/;"	c
+DBListView	home/.vim/plugin/dbext.vim	/^    command! -nargs=? DBListView$/;"	c
+DBOrientationToggle	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBOrientationToggle$/;"	c
+DBPromptForBufferParameters	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBPromptForBufferParameters$/;"	c
+DBResultsClose	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBResultsClose$/;"	c
+DBResultsOpen	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBResultsOpen$/;"	c
+DBResultsRefresh	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBResultsRefresh$/;"	c
+DBResultsToggleResize	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBResultsToggleResize$/;"	c
+DBRollback	home/.vim/plugin/dbext.vim	/^command! -nargs=0 DBRollback        :call dbext#DB_rollback()$/;"	c
+DBSelectFromTable	home/.vim/plugin/dbext.vim	/^    command! -nargs=* -range DBSelectFromTable$/;"	c
+DBSelectFromTableAskName	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBSelectFromTableAskName$/;"	c
+DBSelectFromTableTopX	home/.vim/plugin/dbext.vim	/^    command! -nargs=* -range DBSelectFromTableTopX$/;"	c
+DBSelectFromTableWithWhere	home/.vim/plugin/dbext.vim	/^    command! -nargs=0 DBSelectFromTableWithWhere$/;"	c
+DBSetOption	home/.vim/plugin/dbext.vim	/^command! -nargs=* -complete=customlist,dbext#DB_completeSettings DBSetOption :call dbext#DB_setMultipleOptions(<q-args>)$/;"	c
+DBSetOption	home/.vim/plugin/dbext.vim	/^command! -nargs=1 DBSetOption       :call dbext#DB_setMultipleOptions(<q-args>)$/;"	c
+DBSetVar	home/.vim/plugin/dbext.vim	/^command! -nargs=* -complete=customlist,dbext#DB_completeVariable DBSetVar :call dbext#DB_sqlVarAssignment(<bang>0, 'set '.<q-args>)$/;"	c
+DBSetVar	home/.vim/plugin/dbext.vim	/^command! -nargs=1 -bang DBSetVar    :call dbext#DB_sqlVarAssignment(<bang>0, 'set '.<q-args>)$/;"	c
+DBVarRangeAssign	home/.vim/plugin/dbext.vim	/^command! -range -nargs=0 -bang DBVarRangeAssign <line1>,<line2>call dbext#DB_sqlVarRangeAssignment(<bang>0)$/;"	c
+DB_ASA_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_describeProcedure(proc_name)$/;"	f
+DB_ASA_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_describeTable(table_name)$/;"	f
+DB_ASA_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_execSql(str)$/;"	f
+DB_ASA_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_getDictionaryProcedure() $/;"	f
+DB_ASA_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_getDictionaryTable() $/;"	f
+DB_ASA_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_getDictionaryView() $/;"	f
+DB_ASA_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_getListColumn(table_name) $/;"	f
+DB_ASA_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_getListProcedure(proc_prefix)$/;"	f
+DB_ASA_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_getListTable(table_prefix)$/;"	f
+DB_ASA_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_getListView(view_prefix)$/;"	f
+DB_ASA_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_ASA_stripHeaderFooter(result)$/;"	f
+DB_ASE_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_describeProcedure(procedure_name)$/;"	f
+DB_ASE_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_describeTable(table_name)$/;"	f
+DB_ASE_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_execSql(str)$/;"	f
+DB_ASE_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_getDictionaryProcedure() "{{{$/;"	f
+DB_ASE_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_getDictionaryTable() "{{{$/;"	f
+DB_ASE_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_getDictionaryView() "{{{$/;"	f
+DB_ASE_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_getListColumn(table_name) "{{{$/;"	f
+DB_ASE_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_getListProcedure(proc_prefix)$/;"	f
+DB_ASE_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_getListTable(table_prefix)$/;"	f
+DB_ASE_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_getListView(view_prefix)$/;"	f
+DB_ASE_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_ASE_stripHeaderFooter(result) "{{{$/;"	f
+DB_DB2_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_describeProcedure(procedure_name)$/;"	f
+DB_DB2_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_describeTable(table_name)$/;"	f
+DB_DB2_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_execSql(str)$/;"	f
+DB_DB2_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_getDictionaryProcedure()$/;"	f
+DB_DB2_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_getDictionaryTable()$/;"	f
+DB_DB2_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_getDictionaryView() $/;"	f
+DB_DB2_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_getListColumn(table_name) $/;"	f
+DB_DB2_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_getListProcedure(proc_prefix)$/;"	f
+DB_DB2_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_getListTable(table_prefix)$/;"	f
+DB_DB2_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_getListView(view_prefix)$/;"	f
+DB_DB2_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_DB2_stripHeaderFooter(result) $/;"	f
+DB_DBI_Autoload	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_Autoload()$/;"	f
+DB_DBI_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_describeProcedure(procedure_name)$/;"	f
+DB_DBI_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_describeTable(table_name)$/;"	f
+DB_DBI_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_execSql(str)$/;"	f
+DB_DBI_execStr	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_execStr(str)$/;"	f
+DB_DBI_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_getDictionaryProcedure() "{{{$/;"	f
+DB_DBI_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_getDictionaryTable() "{{{$/;"	f
+DB_DBI_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_getDictionaryView() "{{{$/;"	f
+DB_DBI_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_getListColumn(table_name)$/;"	f
+DB_DBI_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_getListProcedure(proc_prefix)$/;"	f
+DB_DBI_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_getListTable(table_prefix)$/;"	f
+DB_DBI_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_getListView(view_prefix)$/;"	f
+DB_DBI_setOption	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_setOption(option_name, value) "{{{$/;"	f
+DB_DBI_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_DBI_stripHeaderFooter(result)$/;"	f
+DB_DictionaryCreate	home/.vim/plugin/dbext.vim	/^function! DB_DictionaryCreate( drop_dict, which ) $/;"	f
+DB_DictionaryDelete	home/.vim/autoload/dbext.vim	/^function! s:DB_DictionaryDelete( which ) "{{{$/;"	f
+DB_FIREBIRD_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_describeProcedure(procedure_name)$/;"	f
+DB_FIREBIRD_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_describeTable(table_name)$/;"	f
+DB_FIREBIRD_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_execSql(str)$/;"	f
+DB_FIREBIRD_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_getDictionaryProcedure() "{{{$/;"	f
+DB_FIREBIRD_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_getDictionaryTable() "{{{$/;"	f
+DB_FIREBIRD_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_getDictionaryView() "{{{$/;"	f
+DB_FIREBIRD_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_getListColumn(table_name) "{{{$/;"	f
+DB_FIREBIRD_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_getListProcedure(proc_prefix)$/;"	f
+DB_FIREBIRD_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_getListTable(table_prefix)$/;"	f
+DB_FIREBIRD_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_getListView(view_prefix)$/;"	f
+DB_FIREBIRD_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_FIREBIRD_stripHeaderFooter(result) "{{{$/;"	f
+DB_INGRES_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_describeProcedure(procedure_name)$/;"	f
+DB_INGRES_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_describeTable(table_name)$/;"	f
+DB_INGRES_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_execSql(str)$/;"	f
+DB_INGRES_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_getDictionaryProcedure() $/;"	f
+DB_INGRES_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_getDictionaryTable() $/;"	f
+DB_INGRES_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_getDictionaryView() $/;"	f
+DB_INGRES_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_getListColumn(table_name) $/;"	f
+DB_INGRES_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_getListProcedure(proc_prefix)$/;"	f
+DB_INGRES_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_getListTable(table_prefix)$/;"	f
+DB_INGRES_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_getListView(view_prefix)$/;"	f
+DB_INGRES_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_INGRES_stripHeaderFooter(result)$/;"	f
+DB_INTERBASE_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_describeProcedure(procedure_name)$/;"	f
+DB_INTERBASE_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_describeTable(table_name)$/;"	f
+DB_INTERBASE_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_execSql(str)$/;"	f
+DB_INTERBASE_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_getDictionaryProcedure() $/;"	f
+DB_INTERBASE_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_getDictionaryTable() $/;"	f
+DB_INTERBASE_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_getDictionaryView() $/;"	f
+DB_INTERBASE_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_getListColumn(table_name) $/;"	f
+DB_INTERBASE_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_getListProcedure(proc_prefix)$/;"	f
+DB_INTERBASE_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_getListTable(table_prefix)$/;"	f
+DB_INTERBASE_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_getListView(view_prefix)$/;"	f
+DB_INTERBASE_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_INTERBASE_stripHeaderFooter(result)$/;"	f
+DB_MYSQL_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_describeProcedure(procedure_name)$/;"	f
+DB_MYSQL_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_describeTable(table_name)$/;"	f
+DB_MYSQL_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_execSql(str)$/;"	f
+DB_MYSQL_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_getDictionaryProcedure() "{{{$/;"	f
+DB_MYSQL_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_getDictionaryTable() "{{{$/;"	f
+DB_MYSQL_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_getDictionaryView() "{{{$/;"	f
+DB_MYSQL_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_getListColumn(table_name) "{{{$/;"	f
+DB_MYSQL_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_getListProcedure(proc_prefix)$/;"	f
+DB_MYSQL_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_getListTable(table_prefix)$/;"	f
+DB_MYSQL_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_getListView(view_prefix)$/;"	f
+DB_MYSQL_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_MYSQL_stripHeaderFooter(result) "{{{$/;"	f
+DB_ODBC_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_describeProcedure(procedure_name)$/;"	f
+DB_ODBC_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_describeTable(table_name)$/;"	f
+DB_ODBC_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_execSql(str)$/;"	f
+DB_ODBC_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_getDictionaryProcedure() "{{{$/;"	f
+DB_ODBC_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_getDictionaryTable() "{{{$/;"	f
+DB_ODBC_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_getDictionaryView() "{{{$/;"	f
+DB_ODBC_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_getListColumn(table_name)$/;"	f
+DB_ODBC_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_getListProcedure(proc_prefix)$/;"	f
+DB_ODBC_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_getListTable(table_prefix)$/;"	f
+DB_ODBC_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_getListView(view_prefix)$/;"	f
+DB_ODBC_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_ODBC_stripHeaderFooter(result)$/;"	f
+DB_ORA_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_describeProcedure(procedure_name)$/;"	f
+DB_ORA_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_describeTable(table_name)$/;"	f
+DB_ORA_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_execSql(str)$/;"	f
+DB_ORA_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_getDictionaryProcedure() "{{{$/;"	f
+DB_ORA_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_getDictionaryTable() "{{{$/;"	f
+DB_ORA_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_getDictionaryView() "{{{$/;"	f
+DB_ORA_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_getListColumn(table_name) "{{{$/;"	f
+DB_ORA_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_getListProcedure(proc_prefix)$/;"	f
+DB_ORA_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_getListTable(table_prefix)$/;"	f
+DB_ORA_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_getListView(view_prefix)$/;"	f
+DB_ORA_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_ORA_stripHeaderFooter(result) "{{{$/;"	f
+DB_PGSQL_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_describeProcedure(procedure_name)$/;"	f
+DB_PGSQL_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_describeTable(table_name)$/;"	f
+DB_PGSQL_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_execSql(str)$/;"	f
+DB_PGSQL_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_getDictionaryProcedure() $/;"	f
+DB_PGSQL_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_getDictionaryTable() $/;"	f
+DB_PGSQL_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_getDictionaryView() $/;"	f
+DB_PGSQL_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_getListColumn(table_name) $/;"	f
+DB_PGSQL_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_getListProcedure(proc_prefix)$/;"	f
+DB_PGSQL_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_getListTable(table_prefix)$/;"	f
+DB_PGSQL_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_getListView(view_prefix)$/;"	f
+DB_PGSQL_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_PGSQL_stripHeaderFooter(result)$/;"	f
+DB_RDB_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_describeProcedure(procedure_name) "{{{$/;"	f
+DB_RDB_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_describeTable(table_name) "{{{$/;"	f
+DB_RDB_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_execSql(str) "{{{$/;"	f
+DB_RDB_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_getDictionaryProcedure() "{{{$/;"	f
+DB_RDB_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_getDictionaryTable() "{{{$/;"	f
+DB_RDB_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_getDictionaryView() "{{{$/;"	f
+DB_RDB_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_getListColumn(table_name) "{{{$/;"	f
+DB_RDB_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_getListProcedure(proc_prefix) "{{{$/;"	f
+DB_RDB_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_getListTable(table_prefix) "{{{$/;"	f
+DB_RDB_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_getListView(view_prefix) "{{{$/;"	f
+DB_RDB_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_RDB_stripHeaderFooter(result) "{{{$/;"	f
+DB_SQLITE_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_describeProcedure(procedure_name)$/;"	f
+DB_SQLITE_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_describeTable(table_name)$/;"	f
+DB_SQLITE_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_execSql(str)$/;"	f
+DB_SQLITE_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_getDictionaryProcedure() $/;"	f
+DB_SQLITE_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_getDictionaryTable()$/;"	f
+DB_SQLITE_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_getDictionaryView()$/;"	f
+DB_SQLITE_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_getListColumn(table_name)$/;"	f
+DB_SQLITE_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_getListProcedure(proc_prefix)$/;"	f
+DB_SQLITE_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_getListTable(table_prefix)$/;"	f
+DB_SQLITE_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_getListView(view_prefix)$/;"	f
+DB_SQLITE_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLITE_stripHeaderFooter(result)$/;"	f
+DB_SQLSRV_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_describeProcedure(procedure_name)$/;"	f
+DB_SQLSRV_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_describeTable(table_name)$/;"	f
+DB_SQLSRV_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_execSql(str)$/;"	f
+DB_SQLSRV_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_getDictionaryProcedure() "{{{$/;"	f
+DB_SQLSRV_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_getDictionaryTable() "{{{$/;"	f
+DB_SQLSRV_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_getDictionaryView() "{{{$/;"	f
+DB_SQLSRV_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_getListColumn(table_name)$/;"	f
+DB_SQLSRV_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_getListProcedure(proc_prefix)$/;"	f
+DB_SQLSRV_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_getListTable(table_prefix)$/;"	f
+DB_SQLSRV_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_getListView(view_prefix)$/;"	f
+DB_SQLSRV_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_SQLSRV_stripHeaderFooter(result)$/;"	f
+DB_ULTRALITE_describeProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_describeProcedure(proc_name)$/;"	f
+DB_ULTRALITE_describeTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_describeTable(table_name)$/;"	f
+DB_ULTRALITE_execSql	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_execSql(str)$/;"	f
+DB_ULTRALITE_getDictionaryProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_getDictionaryProcedure() $/;"	f
+DB_ULTRALITE_getDictionaryTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_getDictionaryTable() $/;"	f
+DB_ULTRALITE_getDictionaryView	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_getDictionaryView() $/;"	f
+DB_ULTRALITE_getListColumn	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_getListColumn(table_name) $/;"	f
+DB_ULTRALITE_getListProcedure	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_getListProcedure(proc_prefix)$/;"	f
+DB_ULTRALITE_getListTable	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_getListTable(table_prefix)$/;"	f
+DB_ULTRALITE_getListView	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_getListView(view_prefix)$/;"	f
+DB_ULTRALITE_stripHeaderFooter	home/.vim/autoload/dbext.vim	/^function! s:DB_ULTRALITE_stripHeaderFooter(result)$/;"	f
+DB_addBufDictList	home/.vim/autoload/dbext.vim	/^function! s:DB_addBufDictList( buf_nbr ) "{{{$/;"	f
+DB_addToResultBuffer	home/.vim/autoload/dbext.vim	/^function! s:DB_addToResultBuffer(output, do_clear)$/;"	f
+DB_buildLists	home/.vim/autoload/dbext.vim	/^function! s:DB_buildLists()$/;"	f
+DB_checkModeline	home/.vim/plugin/dbext.vim	/^function! s:DB_checkModeline()$/;"	f
+DB_delBufDictList	home/.vim/autoload/dbext.vim	/^function! s:DB_delBufDictList( buf_nbr ) "{{{$/;"	f
+DB_errorMsg	home/.vim/autoload/dbext.vim	/^function! s:DB_errorMsg(msg)$/;"	f
+DB_escapeStr	home/.vim/autoload/dbext.vim	/^function! s:DB_escapeStr(value)$/;"	f
+DB_execCmd	home/.vim/plugin/dbext.vim	/^function! DB_execCmd(name, ...)$/;"	f
+DB_fullPath2Bin	home/.vim/autoload/dbext.vim	/^function! s:DB_fullPath2Bin(executable_name) $/;"	f
+DB_get	home/.vim/autoload/dbext.vim	/^function! s:DB_get(name, ...)$/;"	f
+DB_getCommentChars	home/.vim/autoload/dbext.vim	/^function! s:DB_getCommentChars()$/;"	f
+DB_getDefault	home/.vim/autoload/dbext.vim	/^function! s:DB_getDefault(name)$/;"	f
+DB_getDictionaryName	home/.vim/plugin/dbext.vim	/^function! DB_getDictionaryName( which ) $/;"	f
+DB_getInput	home/.vim/autoload/dbext.vim	/^function! s:DB_getInput(prompt, default_value, cancel_value)$/;"	f
+DB_getListColumn	home/.vim/plugin/dbext.vim	/^function! DB_getListColumn(...) $/;"	f
+DB_getLoginScript	home/.vim/autoload/dbext.vim	/^function! s:DB_getLoginScript(filename)$/;"	f
+DB_getObjectAndQuote	home/.vim/autoload/dbext.vim	/^function! s:DB_getObjectAndQuote(object) "{{{ $/;"	f
+DB_getObjectName	home/.vim/autoload/dbext.vim	/^function! s:DB_getObjectName(object) "{{{ $/;"	f
+DB_getObjectOwner	home/.vim/autoload/dbext.vim	/^function! s:DB_getObjectOwner(object) "{{{$/;"	f
+DB_getParameters	home/.vim/autoload/dbext.vim	/^function! s:DB_getParameters(scope)$/;"	f
+DB_getTblAlias	home/.vim/autoload/dbext.vim	/^function! s:DB_getTblAlias(table_name) $/;"	f
+DB_getTitle	home/.vim/autoload/dbext.vim	/^function! s:DB_getTitle() $/;"	f
+DB_getVisualBlock	home/.vim/plugin/dbext.vim	/^function! DB_getVisualBlock() range$/;"	f
+DB_historyAdd	home/.vim/autoload/dbext.vim	/^function! s:DB_historyAdd(sql)$/;"	f
+DB_historyDel	home/.vim/autoload/dbext.vim	/^function! s:DB_historyDel(line)$/;"	f
+DB_historyOpen	home/.vim/autoload/dbext.vim	/^function! s:DB_historyOpen()$/;"	f
+DB_historySave	home/.vim/autoload/dbext.vim	/^function! s:DB_historySave(auto_hide)$/;"	f
+DB_historyUse	home/.vim/autoload/dbext.vim	/^function! s:DB_historyUse(line)$/;"	f
+DB_listOption	home/.vim/plugin/dbext.vim	/^function! DB_listOption(...) $/;"	f
+DB_option	home/.vim/autoload/dbext.vim	/^function! s:DB_option(param, value, separator)$/;"	f
+DB_pad	home/.vim/autoload/dbext.vim	/^function! s:DB_pad(side, length, value)$/;"	f
+DB_parseHostVariables	home/.vim/autoload/dbext.vim	/^function! s:DB_parseHostVariables(query)$/;"	f
+DB_parseHostVariablesOld	home/.vim/autoload/dbext.vim	/^function! s:DB_parseHostVariablesOld(query)$/;"	f
+DB_parseJProperties	home/.vim/autoload/dbext.vim	/^function! s:DB_parseJProperties(query)$/;"	f
+DB_parseJava	home/.vim/autoload/dbext.vim	/^function! s:DB_parseJava(query)$/;"	f
+DB_parsePHP	home/.vim/autoload/dbext.vim	/^function! s:DB_parsePHP(query)$/;"	f
+DB_parsePerl	home/.vim/autoload/dbext.vim	/^function! s:DB_parsePerl(query)$/;"	f
+DB_parseProfile	home/.vim/autoload/dbext.vim	/^function! s:DB_parseProfile(value)$/;"	f
+DB_parseSQL	home/.vim/autoload/dbext.vim	/^function! s:DB_parseSQL(query)$/;"	f
+DB_parseVB	home/.vim/autoload/dbext.vim	/^function! s:DB_parseVB(query)$/;"	f
+DB_parseVim	home/.vim/autoload/dbext.vim	/^function! s:DB_parseVim(query)$/;"	f
+DB_promptForParameters	home/.vim/autoload/dbext.vim	/^function! s:DB_promptForParameters(...)$/;"	f
+DB_removeEmptyLines	home/.vim/autoload/dbext.vim	/^function! s:DB_removeEmptyLines(sql)$/;"	f
+DB_resBufName	home/.vim/autoload/dbext.vim	/^function! s:DB_resBufName()$/;"	f
+DB_resetBufferParameters	home/.vim/autoload/dbext.vim	/^function! s:DB_resetBufferParameters(use_defaults)$/;"	f
+DB_resetGlobalParameters	home/.vim/autoload/dbext.vim	/^function! s:DB_resetGlobalParameters()$/;"	f
+DB_restoreConnParameters	home/.vim/autoload/dbext.vim	/^function! s:DB_restoreConnParameters()$/;"	f
+DB_runCmd	home/.vim/autoload/dbext.vim	/^function! s:DB_runCmd(cmd, sql, result)$/;"	f
+DB_saveConnParameters	home/.vim/autoload/dbext.vim	/^function! s:DB_saveConnParameters()$/;"	f
+DB_saveSize	home/.vim/autoload/dbext.vim	/^function! s:DB_saveSize(buf_name)$/;"	f
+DB_searchReplace	home/.vim/autoload/dbext.vim	/^function! s:DB_searchReplace(str, exp_find_str, exp_get_value, count_matches)$/;"	f
+DB_searchReplaceOld	home/.vim/autoload/dbext.vim	/^function! s:DB_searchReplaceOld(str, exp_find_str, exp_get_value, count_matches)$/;"	f
+DB_set	home/.vim/autoload/dbext.vim	/^function! s:DB_set(name, value)$/;"	f
+DB_setGlobal	home/.vim/autoload/dbext.vim	/^function! s:DB_setGlobal(name, value)$/;"	f
+DB_setWType	home/.vim/autoload/dbext.vim	/^function! s:DB_setWType(name, value)$/;"	f
+DB_sqlVarInit	home/.vim/autoload/dbext.vim	/^function! s:DB_sqlVarInit()$/;"	f
+DB_sqlVarRemoveTemp	home/.vim/autoload/dbext.vim	/^function! s:DB_sqlVarRemoveTemp()$/;"	f
+DB_sqlVarSet	home/.vim/autoload/dbext.vim	/^function! s:DB_sqlVarSet(name, value, temporary)$/;"	f
+DB_sqlVarSubstitute	home/.vim/autoload/dbext.vim	/^function! s:DB_sqlVarSubstitute(sql)$/;"	f
+DB_stripComments	home/.vim/autoload/dbext.vim	/^function! s:DB_stripComments(mdl_options)$/;"	f
+DB_stripLeadFollowQuotesSpace	home/.vim/autoload/dbext.vim	/^function! s:DB_stripLeadFollowQuotesSpace(str)$/;"	f
+DB_stripLeadFollowSpaceLines	home/.vim/autoload/dbext.vim	/^function! s:DB_stripLeadFollowSpaceLines(str)$/;"	f
+DB_switchToBuffer	home/.vim/autoload/dbext.vim	/^function! s:DB_switchToBuffer(buf_name, buf_file, get_buf_nr_name)$/;"	f
+DB_validateBufferParameters	home/.vim/autoload/dbext.vim	/^function! s:DB_validateBufferParameters()$/;"	f
+DB_varToString	home/.vim/autoload/dbext.vim	/^function! s:DB_varToString(name)$/;"	f
+DB_warningMsg	home/.vim/autoload/dbext.vim	/^function! s:DB_warningMsg(msg)$/;"	f
+Delete	home/.vim/plugin/dbext.vim	/^command! -nargs=+ -complete=customlist,dbext#DB_completeTables Delete            :call dbext#DB_execSql("delete " . <q-args>)$/;"	c
+Detect	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Detect(path)$/;"	f
+Detect	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:Detect(filename)$/;"	f
+Diff	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Diff(...) abort$/;"	f
+DirComplete	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:DirComplete(A,L,P) abort$/;"	f
+Doc	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Doc(bang, string)$/;"	f
+Drop	home/.vim/plugin/dbext.vim	/^command! -nargs=+ -complete=customlist,dbext#DB_completeTables Drop              :call dbext#DB_execSql("drop " . <q-args>)$/;"	c
+E2T	home/.vim/colors/vividchalk.vim	/^function! E2T(a)$/;"	f
+Edit	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Edit(cmd,...) abort$/;"	f
+Edit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Edit(count,cmd,...)$/;"	f
+EditComplete	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:EditComplete(A,L,P) abort$/;"	f
+EditSimpleRb	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:EditSimpleRb(cmd,name,target,prefix,suffix,...)$/;"	f
+ExecuteInTree	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:ExecuteInTree(cmd) abort$/;"	f
+ExitingOneLineScope	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:ExitingOneLineScope(lnum)$/;"	f
+Extract	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Extract(bang,...) range abort$/;"	f
+ExtractGitDir	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:ExtractGitDir(path) abort$/;"	f
+FileRead	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:FileRead()$/;"	f
+Find	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Find(count,cmd,...)$/;"	f
+FinishCommit	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:FinishCommit()$/;"	f
+GF	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:GF(mode) abort$/;"	f
+GetFirstError	home/.vim/bundle/vim-makegreen/plugin/makegreen.vim	/^function s:GetFirstError()$/;"	f
+GetHamlIndent	home/.vim/bundle/vim-haml/indent/haml.vim	/^function! GetHamlIndent()$/;"	f
+GetJavascriptIndent	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function GetJavascriptIndent()$/;"	f
+GetLiquidIndent	home/.vim/bundle/vim-liquid/indent/liquid.vim	/^function! GetLiquidIndent(...)$/;"	f
+GetMSL	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:GetMSL(lnum, in_one_line_scope)$/;"	f
+GetSassIndent	home/.vim/bundle/vim-haml/indent/sass.vim	/^function! GetSassIndent()$/;"	f
+Gist	home/.vim/bundle/vim-gist/plugin/gist.vim	/^command! -nargs=? -range=% Gist :call Gist(<line1>, <line2>, <f-args>)$/;"	c
+Gist	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! Gist(line1, line2, ...)$/;"	f
+GistDelete	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistDelete(user, token, gistid)$/;"	f
+GistDetectFiletype	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistDetectFiletype(gistid)$/;"	f
+GistGet	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistGet(user, token, gistid, clipboard)$/;"	f
+GistGetFileName	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistGetFileName(gistid)$/;"	f
+GistGetSessionID	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistGetSessionID(user, password)$/;"	f
+GistList	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistList(user, token, gistls)$/;"	f
+GistListAction	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistListAction()$/;"	f
+GistPost	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistPost(user, token, content, private)$/;"	f
+GistPostBuffers	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistPostBuffers(user, token, private)$/;"	f
+GistUpdate	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistUpdate(user, token, content, gistid, gistnm)$/;"	f
+GistWrite	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:GistWrite(fname)$/;"	f
+Git	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Git(bang,cmd) abort$/;"	f
+GitComplete	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:GitComplete(A,L,P) abort$/;"	f
+Grep	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Grep(bang,arg) abort$/;"	f
+HiDefaults	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:HiDefaults()$/;"	f
+HiLink	home/.vim/bundle/vim-javascript/syntax/javascript.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	home/.vim/bundle/vim-javascript/syntax/javascript.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+InOneLineScope	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:InOneLineScope(lnum)$/;"	f
+IndentWithContinuation	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:IndentWithContinuation(lnum, ind, width)$/;"	f
+Init	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:Init()$/;"	f
+InitStatusline	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:InitStatusline()$/;"	f
+InjectIntoStatusline	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:InjectIntoStatusline(status)$/;"	f
+Insert	home/.vim/plugin/dbext.vim	/^command! -nargs=+ -complete=customlist,dbext#DB_completeTables Insert            :call dbext#DB_execSql("insert " . <q-args>)$/;"	c
+Invert	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Invert(bang)$/;"	f
+IsInString	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:IsInString(lnum, col)$/;"	f
+IsInStringOrComment	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:IsInStringOrComment(lnum, col)$/;"	f
+IsInStringOrDocumentation	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:IsInStringOrDocumentation(lnum, col)$/;"	f
+JumpInit	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:JumpInit() abort$/;"	f
+KeyMap.All	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:KeyMap.All()$/;"	f
+KeyMap.BindAll	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:KeyMap.BindAll()$/;"	f
+KeyMap.Create	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:KeyMap.Create(options)$/;"	f
+KeyMap.bind	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:KeyMap.bind()$/;"	f
+Leave	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:Leave()$/;"	f
+LineHasOpeningBrackets	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:LineHasOpeningBrackets(lnum)$/;"	f
+LocalModelines	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:LocalModelines(lnum)$/;"	f
+Log	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Log(cmd,...)$/;"	f
+Log	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Log(bang,arg)$/;"	f
+M	home/.vim/colors/vividchalk.vim	/^fun! s:M(a)$/;"	f
+Match	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:Match(lnum, regex)$/;"	f
+MenuController.New	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController.New(menuItems)$/;"	f
+MenuController._allIndexesFor	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._allIndexesFor(shortcut)$/;"	f
+MenuController._current	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._current()$/;"	f
+MenuController._cursorDown	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._cursorDown()$/;"	f
+MenuController._cursorUp	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._cursorUp()$/;"	f
+MenuController._echoPrompt	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._echoPrompt()$/;"	f
+MenuController._handleKeypress	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._handleKeypress(key)$/;"	f
+MenuController._nextIndexFor	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._nextIndexFor(shortcut)$/;"	f
+MenuController._restoreOptions	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._restoreOptions()$/;"	f
+MenuController._saveOptions	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._saveOptions()$/;"	f
+MenuController._setCmdheight	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._setCmdheight()$/;"	f
+MenuController.showMenu	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController.showMenu()$/;"	f
+MenuItem.All	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.All()$/;"	f
+MenuItem.AllEnabled	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.AllEnabled()$/;"	f
+MenuItem.Create	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.Create(options)$/;"	f
+MenuItem.CreateSeparator	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.CreateSeparator(options)$/;"	f
+MenuItem.CreateSubmenu	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.CreateSubmenu(options)$/;"	f
+MenuItem.enabled	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.enabled()$/;"	f
+MenuItem.execute	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.execute()$/;"	f
+MenuItem.isSeparator	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.isSeparator()$/;"	f
+MenuItem.isSubmenu	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.isSubmenu()$/;"	f
+Move	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Move(force,destination)$/;"	f
+MoveComplete	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:MoveComplete(A,L,P)$/;"	f
+NERDTree	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^augroup NERDTree$/;"	a
+NERDTree	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTree :call s:initNerdTree('<args>')$/;"	c
+NERDTreeAddKeyMap	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddKeyMap(options)$/;"	f
+NERDTreeAddMenuItem	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuItem(options)$/;"	f
+NERDTreeAddMenuSeparator	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuSeparator(...)$/;"	f
+NERDTreeAddNode	home/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeAddNode()$/;"	f
+NERDTreeAddSubmenu	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddSubmenu(options)$/;"	f
+NERDTreeClose	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeClose :call s:closeTreeIfOpen()$/;"	c
+NERDTreeCopyNode	home/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeCopyNode()$/;"	f
+NERDTreeDeleteNode	home/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeDeleteNode()$/;"	f
+NERDTreeExecFile	home/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFile()$/;"	f
+NERDTreeExecFileActive	home/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFileActive()$/;"	f
+NERDTreeFind	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeFind call s:findAndRevealPath()$/;"	c
+NERDTreeFromBookmark	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=1 -complete=customlist,s:completeBookmarks -bar NERDTreeFromBookmark call s:initNerdTree('<args>')$/;"	c
+NERDTreeHijackNetrw	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    augroup NERDTreeHijackNetrw$/;"	a
+NERDTreeMirror	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeMirror call s:initNerdTreeMirror()$/;"	c
+NERDTreeMoveNode	home/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeMoveNode()$/;"	f
+NERDTreeRender	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeRender()$/;"	f
+NERDTreeToggle	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTreeToggle :call s:toggle('<args>')$/;"	c
+NERD_tree.vim	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	1;"	F
+Navcommand	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Navcommand(bang,...)$/;"	f
+NewProject	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:NewProject(proj,rr)$/;"	f
+NewProjectTemplate	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:NewProjectTemplate(proj,rr)$/;"	f
+Path.AbsolutePathFor	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.AbsolutePathFor(str)$/;"	f
+Path.CopyingSupported	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.CopyingSupported()$/;"	f
+Path.Create	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.Create(fullpath)$/;"	f
+Path.JoinPathStrings	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.JoinPathStrings(...)$/;"	f
+Path.New	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.New(path)$/;"	f
+Path.Slash	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.Slash()$/;"	f
+Path.WinToUnixPath	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.WinToUnixPath(pathstr)$/;"	f
+Path._str	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path._str()$/;"	f
+Path._strForCd	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path._strForCd()$/;"	f
+Path._strForEdit	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path._strForEdit()$/;"	f
+Path._strForGlob	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path._strForGlob()$/;"	f
+Path._strForUI	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path._strForUI()$/;"	f
+Path.bookmarkNames	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.bookmarkNames()$/;"	f
+Path.cacheDisplayString	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.cacheDisplayString()$/;"	f
+Path.changeToDir	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.changeToDir()$/;"	f
+Path.compareTo	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.compareTo(path)$/;"	f
+Path.copy	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.copy(dest)$/;"	f
+Path.copyingWillOverwrite	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.copyingWillOverwrite(dest)$/;"	f
+Path.delete	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.delete()$/;"	f
+Path.displayString	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.displayString()$/;"	f
+Path.equals	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.equals(path)$/;"	f
+Path.exists	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.exists()$/;"	f
+Path.extractDriveLetter	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.extractDriveLetter(fullpath)$/;"	f
+Path.getDir	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.getDir()$/;"	f
+Path.getLastPathComponent	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.getLastPathComponent(dirSlash)$/;"	f
+Path.getParent	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.getParent()$/;"	f
+Path.getSortOrderIndex	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.getSortOrderIndex()$/;"	f
+Path.ignore	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.ignore()$/;"	f
+Path.isUnder	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.isUnder(path)$/;"	f
+Path.readInfoFromDisk	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.readInfoFromDisk(fullpath)$/;"	f
+Path.refresh	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.refresh()$/;"	f
+Path.rename	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.rename(newPath)$/;"	f
+Path.str	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.str(...)$/;"	f
+Path.strTrunk	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.strTrunk()$/;"	f
+PrevNonBlankNonString	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^function s:PrevNonBlankNonString(lnum)$/;"	f
+Preview	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Preview(bang,lnum,arg)$/;"	f
+Project	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Project(bang,arg)$/;"	f
+ProjectMenu	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:ProjectMenu()$/;"	f
+RagtagInit	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! RagtagInit()$/;"	f
+Rails	home/.vim/bundle/vim-rails/plugin/rails.vim	/^command! -bar -bang -nargs=* -complete=dir Rails :if s:autoload()|call rails#new_app_command(<bang>0,<f-args>)|endif$/;"	c
+RailsBufInit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! RailsBufInit(path)$/;"	f
+RailsFile	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! RailsFile()$/;"	f
+RailsFilePath	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! RailsFilePath()$/;"	f
+RailsFileType	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! RailsFileType()$/;"	f
+RailsFind	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:RailsFind()$/;"	f
+RailsHelpCommand	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! RailsHelpCommand(...)$/;"	f
+RailsIncludeexpr	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! RailsIncludeexpr()$/;"	f
+RailsIncludefind	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:RailsIncludefind(str,...)$/;"	f
+RailsNamedRoutes	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! RailsNamedRoutes()$/;"	f
+RailsRevision	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! RailsRevision()$/;"	f
+RailsRoot	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! RailsRoot()$/;"	f
+Rake	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Rake(bang,lnum,arg)$/;"	f
+Refresh	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Refresh(bang)$/;"	f
+RefreshBuffer	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:RefreshBuffer()$/;"	f
+Related	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Related(cmd,line1,line2,count,...)$/;"	f
+Remove	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Remove(force)$/;"	f
+ReplaceCmd	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:ReplaceCmd(cmd,...) abort$/;"	f
+RunAllRubyTests	home/.vim/plugin/ruby_focused_unit_test.vim	/^command RunAllRubyTests :call <SID>RunAllRubyTests()$/;"	c
+RunAllRubyTests	home/.vim/plugin/ruby_focused_unit_test.vim	/^function! s:RunAllRubyTests()$/;"	f
+RunLastRubyTest	home/.vim/plugin/ruby_focused_unit_test.vim	/^command RunLastRubyTest :call <SID>RunLastRubyTest()$/;"	c
+RunLastRubyTest	home/.vim/plugin/ruby_focused_unit_test.vim	/^function! s:RunLastRubyTest()$/;"	f
+RunMake	home/.vim/bundle/vim-makegreen/plugin/makegreen.vim	/^function s:RunMake() "{{{1$/;"	f
+RunRubyFocusedContext	home/.vim/plugin/ruby_focused_unit_test.vim	/^command RunRubyFocusedContext :call <SID>RunRubyFocusedContext()$/;"	c
+RunRubyFocusedContext	home/.vim/plugin/ruby_focused_unit_test.vim	/^function! s:RunRubyFocusedContext()$/;"	f
+RunRubyFocusedUnitTest	home/.vim/plugin/ruby_focused_unit_test.vim	/^command RunRubyFocusedUnitTest :call <SID>RunRubyFocusedUnitTest()$/;"	c
+RunRubyFocusedUnitTest	home/.vim/plugin/ruby_focused_unit_test.vim	/^function! s:RunRubyFocusedUnitTest()$/;"	f
+S	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^    command -nargs=1 -bang -bar -range=0 -complete=custom,s:SubComplete S$/;"	c
+S	home/.vim/bundle/vim-surround/plugin/surround.vim	/^      vmap  S    <Plug>VSurround$/;"	m
+Select	home/.vim/plugin/dbext.vim	/^command! -nargs=+ -complete=customlist,dbext#DB_completeTables Select            :call dbext#DB_execSql("select " . <q-args>)$/;"	c
+Set	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:Set(bang,...)$/;"	f
+SetBasePath	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:SetBasePath()$/;"	f
+SetOptDefault	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:SetOptDefault(opt,val)$/;"	f
+SpeedDatingFormat	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^command! -bar -bang -count=0 -nargs=? SpeedDatingFormat :call s:adddate(<q-args>,<count>,<bang>0)$/;"	c
+StageDiff	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StageDiff() abort$/;"	f
+StagePatch	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StagePatch(lnum1,lnum2) abort$/;"	f
+StageToggle	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StageToggle(lnum1,lnum2) abort$/;"	f
+Status	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Status() abort$/;"	f
+SubComplete	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:SubComplete(A,L,P)$/;"	f
+Subvert	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^command! -nargs=1 -bang -bar -range=0 -complete=custom,s:SubComplete Subvert$/;"	c
+TheCWord	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:TheCWord()$/;"	f
+TreeDirNode.AbsoluteTreeRoot	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.AbsoluteTreeRoot()$/;"	f
+TreeDirNode.GetSelected	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.GetSelected()$/;"	f
+TreeDirNode.New	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.New(path)$/;"	f
+TreeDirNode._initChildren	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode._initChildren(silent)$/;"	f
+TreeDirNode._openRecursively2	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode._openRecursively2(forceOpen)$/;"	f
+TreeDirNode.activate	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.activate(forceKeepWinOpen)$/;"	f
+TreeDirNode.addChild	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.addChild(treenode, inOrder)$/;"	f
+TreeDirNode.close	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.close()$/;"	f
+TreeDirNode.closeChildren	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.closeChildren()$/;"	f
+TreeDirNode.createChild	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.createChild(path, inOrder)$/;"	f
+TreeDirNode.findNode	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.findNode(path)$/;"	f
+TreeDirNode.getChild	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getChild(path)$/;"	f
+TreeDirNode.getChildByIndex	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getChildByIndex(indx, visible)$/;"	f
+TreeDirNode.getChildCount	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getChildCount()$/;"	f
+TreeDirNode.getChildIndex	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getChildIndex(path)$/;"	f
+TreeDirNode.getVisibleChildCount	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getVisibleChildCount()$/;"	f
+TreeDirNode.getVisibleChildren	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getVisibleChildren()$/;"	f
+TreeDirNode.hasVisibleChildren	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.hasVisibleChildren()$/;"	f
+TreeDirNode.open	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.open()$/;"	f
+TreeDirNode.openExplorer	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.openExplorer()$/;"	f
+TreeDirNode.openInNewTab	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.openInNewTab(options)$/;"	f
+TreeDirNode.openRecursively	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.openRecursively()$/;"	f
+TreeDirNode.refresh	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.refresh()$/;"	f
+TreeDirNode.removeChild	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.removeChild(treenode)$/;"	f
+TreeDirNode.reveal	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.reveal(path)$/;"	f
+TreeDirNode.sortChildren	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.sortChildren()$/;"	f
+TreeDirNode.toggleOpen	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.toggleOpen()$/;"	f
+TreeDirNode.transplantChild	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.transplantChild(newNode)$/;"	f
+TreeFileNode.GetRootForTab	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.GetRootForTab()$/;"	f
+TreeFileNode.GetRootLineNum	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.GetRootLineNum()$/;"	f
+TreeFileNode.GetSelected	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.GetSelected()$/;"	f
+TreeFileNode.New	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.New(path)$/;"	f
+TreeFileNode._renderToString	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode._renderToString(depth, drawText, vertMap, isLastChild)$/;"	f
+TreeFileNode.activate	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.activate(forceKeepWinOpen)$/;"	f
+TreeFileNode.bookmark	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.bookmark(name)$/;"	f
+TreeFileNode.cacheParent	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.cacheParent()$/;"	f
+TreeFileNode.clearBoomarks	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.clearBoomarks()$/;"	f
+TreeFileNode.copy	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.copy(dest)$/;"	f
+TreeFileNode.delete	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.delete()$/;"	f
+TreeFileNode.displayString	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.displayString()$/;"	f
+TreeFileNode.equals	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.equals(treenode)$/;"	f
+TreeFileNode.findNode	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.findNode(path)$/;"	f
+TreeFileNode.findOpenDirSiblingWithVisibleChildren	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.findOpenDirSiblingWithVisibleChildren(direction)$/;"	f
+TreeFileNode.findSibling	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.findSibling(direction)$/;"	f
+TreeFileNode.getLineNum	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.getLineNum()$/;"	f
+TreeFileNode.isRoot	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.isRoot()$/;"	f
+TreeFileNode.isVisible	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.isVisible()$/;"	f
+TreeFileNode.makeRoot	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.makeRoot()$/;"	f
+TreeFileNode.open	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.open()$/;"	f
+TreeFileNode.openInNewTab	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.openInNewTab(options)$/;"	f
+TreeFileNode.openSplit	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.openSplit()$/;"	f
+TreeFileNode.openVSplit	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.openVSplit()$/;"	f
+TreeFileNode.putCursorHere	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.putCursorHere(isJump, recurseUpward)$/;"	f
+TreeFileNode.refresh	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.refresh()$/;"	f
+TreeFileNode.rename	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.rename(newName)$/;"	f
+TreeFileNode.renderToString	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.renderToString()$/;"	f
+U	home/.vim/bundle/vim-repeat/autoload/repeat.vim	/^nnoremap <silent> U     :<C-U>call <SID>wrap('U',v:count)<CR>$/;"	m
+Update	home/.vim/plugin/dbext.vim	/^command! -nargs=+ -complete=customlist,dbext#DB_completeTables Update            :call dbext#DB_execSql("update " . <q-args>)$/;"	c
+Write	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Write(force,...) abort$/;"	f
+X	home/.vim/colors/vividchalk.vim	/^fun! s:X(a)$/;"	f
+abbreviate_from_dict	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:abbreviate_from_dict(cmd,dict)$/;"	f
+abolish.vim	home/.vim/bundle/vim-abolish/plugin/abolish.vim	1;"	F
+abolish_l	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:abolish_l(word)$/;"	f
+abolish_setup	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:abolish_setup()$/;"	f
+abolish_t	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:abolish_t(word)$/;"	f
+activateNode	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:activateNode(forceKeepWindowOpen)$/;"	f
+add_methods	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:add_methods(namespace, method_names) abort$/;"	f
+add_methods	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:add_methods(namespace, method_names)$/;"	f
+adddate	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:adddate(master,count,bang)$/;"	f
+addfilecmds	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:addfilecmds(type)$/;"	f
+addprojectdir	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:addprojectdir(rr,parentdir,dir)$/;"	f
+addtostatus	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:addtostatus(letter,status)$/;"	f
+app_background_script_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_background_script_command(cmd) dict abort$/;"	f
+app_dbext_settings	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_dbext_settings(environment) dict$/;"	f
+app_default_locale	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_default_locale() dict abort$/;"	f
+app_destroy_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_destroy_command(bang,...) dict$/;"	f
+app_environments	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_environments() dict$/;"	f
+app_eval	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_eval(ruby,...) dict abort$/;"	f
+app_execute_script_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_execute_script_command(cmd) dict abort$/;"	f
+app_file	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_file(name)$/;"	f
+app_find_file	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_find_file(name, ...) dict abort$/;"	f
+app_generate_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_generate_command(bang,...) dict$/;"	f
+app_generators	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_generators() dict$/;"	f
+app_has	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_has(feature) dict$/;"	f
+app_has_file	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_has_file(file) dict$/;"	f
+app_lightweight_ruby_eval	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_lightweight_ruby_eval(ruby,...) dict abort$/;"	f
+app_migration	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_migration(file) dict$/;"	f
+app_named_route_file	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_named_route_file(route) dict$/;"	f
+app_path	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_path(...) dict$/;"	f
+app_rake_tasks	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_rake_tasks() dict$/;"	f
+app_relglob	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_relglob(path,glob,...) dict$/;"	f
+app_route_names	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_route_names() dict$/;"	f
+app_ruby_shell_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_ruby_shell_command(cmd) dict abort$/;"	f
+app_runner_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_runner_command(count,args) dict$/;"	f
+app_script_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_script_command(bang,...) dict$/;"	f
+app_script_shell_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_script_shell_command(cmd) dict abort$/;"	f
+app_server_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_server_command(bang,arg) dict$/;"	f
+app_source_callback	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_source_callback(file) dict$/;"	f
+app_tags_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_tags_command() dict$/;"	f
+app_test_suites	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_test_suites() dict$/;"	f
+app_user_assertions	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_user_assertions() dict$/;"	f
+app_user_classes	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:app_user_classes() dict$/;"	f
+applymodifer	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:applymodifer(number,modifier,width)$/;"	f
+arabic2roman	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:arabic2roman(arabic)$/;"	f
+ary2pat	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:ary2pat(array)$/;"	f
+autocamelize	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:autocamelize(files,test)$/;"	f
+autoload	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:autoload(...)$/;"	f
+b:	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^      let b:{matchstr(s:type,'[^.]*')}_subtype = matchstr(s:type,'\\.\\zs.*')$/;"	v
+b:browsefilter	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^  let b:browsefilter="Haml Files (*.haml)\\t*.haml\\nSass Files (*.sass)\\t*.sass\\n" . s:browsefilter$/;"	v
+b:browsefilter	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let b:browsefilter = "\\n".b:browsefilter$/;"	v
+b:browsefilter	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let b:browsefilter = ''$/;"	v
+b:browsefilter	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let b:browsefilter="Liquid Files (*.liquid)\\t*.liquid" . b:browsefilter$/;"	v
+b:current_syntax	home/.vim/bundle/vim-haml/syntax/haml.vim	/^let b:current_syntax = "haml"$/;"	v
+b:current_syntax	home/.vim/bundle/vim-haml/syntax/sass.vim	/^let b:current_syntax = "sass"$/;"	v
+b:current_syntax	home/.vim/bundle/vim-javascript/syntax/javascript.vim	/^let b:current_syntax = "javascript"$/;"	v
+b:current_syntax	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^let b:current_syntax = 'liquid'$/;"	v
+b:current_syntax	home/.vim/bundle/vim-markdown/syntax/markdown.vim	/^let b:current_syntax = "markdown"$/;"	v
+b:did_ftplugin	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^let b:did_ftplugin = 1$/;"	v
+b:did_ftplugin	home/.vim/bundle/vim-haml/ftplugin/sass.vim	/^let b:did_ftplugin = 1$/;"	v
+b:did_ftplugin	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^let b:did_ftplugin = 1$/;"	v
+b:did_indent	home/.vim/bundle/vim-haml/indent/haml.vim	/^let b:did_indent = 1$/;"	v
+b:did_indent	home/.vim/bundle/vim-haml/indent/sass.vim	/^let b:did_indent = 1$/;"	v
+b:did_indent	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let b:did_indent = 1$/;"	v
+b:did_indent	home/.vim/bundle/vim-liquid/indent/liquid.vim	/^let b:did_indent = 1$/;"	v
+b:javascript_fold	home/.vim/bundle/vim-javascript/syntax/javascript.vim	/^let b:javascript_fold='true'$/;"	v
+b:liquid_subtype	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^    let b:liquid_subtype = g:liquid_default_subtype$/;"	v
+b:liquid_subtype	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^    let b:liquid_subtype = matchstr(&filetype,'^liquid\\.\\zs\\w\\+')$/;"	v
+b:liquid_subtype	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^    let b:liquid_subtype = matchstr(substitute(expand('%:t'),'\\c\\%(\\.liquid\\)\\+$','',''),'\\.\\zs\\w\\+$')$/;"	v
+b:liquid_subtype	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let b:liquid_subtype = matchstr(s:lines,'liquid_subtype=\\zs\\w\\+')$/;"	v
+b:liquid_subtype	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^    let b:liquid_subtype = g:liquid_default_subtype$/;"	v
+b:liquid_subtype	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^    let b:liquid_subtype = matchstr(&filetype,'^liquid\\.\\zs\\w\\+')$/;"	v
+b:liquid_subtype	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^    let b:liquid_subtype = matchstr(substitute(expand('%:t'),'\\c\\%(\\.liquid\\)\\+$','',''),'\\.\\zs\\w\\+$')$/;"	v
+b:liquid_subtype	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^    let b:liquid_subtype = s:subtype$/;"	v
+b:liquid_subtype	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^  let b:liquid_subtype = matchstr(s:lines,'liquid_subtype=\\zs\\w\\+')$/;"	v
+b:liquid_subtype_indentexpr	home/.vim/bundle/vim-liquid/indent/liquid.vim	/^let b:liquid_subtype_indentexpr = &l:indentexpr$/;"	v
+b:match_words	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^  let b:match_words = s:match_words$/;"	v
+b:match_words	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let b:match_words .= ','$/;"	v
+b:match_words	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let b:match_words .= '\\<\\%(if\\w*\\|unless\\|case\\)\\>:\\<\\%(elsif\\|else\\|when\\)\\>:\\<end\\%(if\\w*\\|unless\\|case\\)\\>,\\<\\%(for\\|tablerow\\)\\>:\\%({%\\s*\\)\\@<=empty\\>:\\<end\\%(for\\|tablerow\\)\\>,<\\(capture\\|comment\\|highlight\\)\\>:\\<end\\1\\>'$/;"	v
+b:match_words	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let b:match_words = ''$/;"	v
+b:ruby_no_expensive	home/.vim/bundle/vim-haml/syntax/haml.vim	/^let b:ruby_no_expensive = 1$/;"	v
+b:undo_ftplugin	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^let b:undo_ftplugin = "setl cms< com< "$/;"	v
+b:undo_ftplugin	home/.vim/bundle/vim-haml/ftplugin/sass.vim	/^let b:undo_ftplugin = "setl cms< inc< ofu<"$/;"	v
+b:undo_ftplugin	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let b:undo_ftplugin .= '|'$/;"	v
+b:undo_ftplugin	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let b:undo_ftplugin = ''$/;"	v
+b:undo_ftplugin	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^let b:undo_ftplugin .= 'setl cms< | unlet! b:browsefilter b:match_words'$/;"	v
+b:undo_ftplugin	home/.vim/bundle/vim-markdown/ftplugin/markdown.vim	/^let b:undo_ftplugin .= "|setl cms< com< fo<"$/;"	v
+badgood	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:badgood(args)$/;"	f
+beep	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:beep()$/;"	f
+bindMappings	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:bindMappings()$/;"	f
+bookmarkNode	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:bookmarkNode(name)$/;"	f
+bspattern	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:bspattern(pattern)$/;"	f
+bufInWindows	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:bufInWindows(bnum)$/;"	f
+buffer	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer(...) abort$/;"	f
+buffer_app	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:buffer_app() dict abort$/;"	f
+buffer_commit	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_commit() dict abort$/;"	f
+buffer_compare_age	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_compare_age(commit) dict abort$/;"	f
+buffer_containing_commit	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_containing_commit() dict abort$/;"	f
+buffer_expand	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_expand(rev) dict abort$/;"	f
+buffer_getline	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_getline(lnum) dict abort$/;"	f
+buffer_getline	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:buffer_getline(...) dict abort$/;"	f
+buffer_getvar	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_getvar(var) dict abort$/;"	f
+buffer_getvar	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:buffer_getvar(varname) dict abort$/;"	f
+buffer_lines	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:buffer_lines() dict abort$/;"	f
+buffer_name	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_name() dict abort$/;"	f
+buffer_name	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:buffer_name() dict abort$/;"	f
+buffer_number	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:buffer_number() dict abort$/;"	f
+buffer_path	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_path(...) dict abort$/;"	f
+buffer_path	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:buffer_path() dict abort$/;"	f
+buffer_repo	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_repo() dict abort$/;"	f
+buffer_rev	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_rev() dict abort$/;"	f
+buffer_setvar	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_setvar(var,value) dict abort$/;"	f
+buffer_setvar	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:buffer_setvar(varname, val) dict abort$/;"	f
+buffer_sha1	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_sha1() dict abort$/;"	f
+buffer_type	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_type(...) dict abort$/;"	f
+buffer_type_name	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:buffer_type_name(...) dict abort$/;"	f
+c	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:c()$/;"	f
+cache_clear	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:cache_clear(...) dict$/;"	f
+cache_get	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:cache_get(...) dict$/;"	f
+cache_has	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:cache_has(key) dict$/;"	f
+cache_needs	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:cache_needs(key) dict$/;"	f
+cache_set	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:cache_set(key,value) dict$/;"	f
+camelcase	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:camelcase(word)$/;"	f
+centerView	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:centerView()$/;"	f
+chCwd	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:chCwd()$/;"	f
+chRoot	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:chRoot()$/;"	f
+changesurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:changesurround() " {{{1$/;"	f
+chars	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:chars(string)$/;"	f
+charset	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:charset()$/;"	f
+checkForActivate	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:checkForActivate()$/;"	f
+checkForBrowse	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:checkForBrowse(dir)$/;"	f
+choose	home/.vim/colors/vividchalk.vim	/^function! s:choose(mediocre,good)$/;"	f
+chrysoprase.vim	home/.vim/colors/chrysoprase.vim	1;"	F
+clearBookmarks	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:clearBookmarks(bookmarks)$/;"	f
+closeChildren	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeChildren()$/;"	f
+closeCurrentDir	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeCurrentDir()$/;"	f
+closeTree	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeTree()$/;"	f
+closeTreeIfOpen	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeTreeIfOpen()$/;"	f
+closeTreeIfQuitOnOpen	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeTreeIfQuitOnOpen()$/;"	f
+closeTreeWindow	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeTreeWindow()$/;"	f
+closematch	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:closematch(str) " {{{1$/;"	f
+closetag	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:closetag()$/;"	f
+closetagback	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:closetagback()$/;"	f
+coerce	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:coerce(transformation)$/;"	f
+colors_name	home/.vim/colors/chrysoprase.vim	/^let colors_name = "chrysoprase"$/;"	v
+colors_name	home/.vim/colors/django.vim	/^let colors_name = "django"$/;"	v
+colors_name	home/.vim/colors/tango2.vim	/^let colors_name = "tango2"$/;"	v
+colors_name	home/.vim/colors/vividchalk.vim	/^let colors_name = "vividchalk"$/;"	v
+colors_name	home/.vim/colors/wombat.vim	/^let colors_name = "wombat"$/;"	v
+command	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:command(definition) abort$/;"	f
+commands.abbrev.process	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:commands.abbrev.process(bang,line1,line2,count,args)$/;"	f
+commands.abstract.dispatch	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:commands.abstract.dispatch(bang,line1,line2,count,args)$/;"	f
+commands.abstract.go	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:commands.abstract.go(bang,line1,line2,count,args)$/;"	f
+commands.search.process	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:commands.search.process(bang,line1,line2,count,args)$/;"	f
+commands.substitute.process	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:commands.substitute.process(bang,line1,line2,count,args)$/;"	f
+compact	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:compact(ary)$/;"	f
+compareBookmarks	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:compareBookmarks(first, second)$/;"	f
+compareNodes	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:compareNodes(n1, n2)$/;"	f
+comparecase	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:comparecase(i1, i2)$/;"	f
+compatibility_check	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:compatibility_check()$/;"	f
+completeBookmarks	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:completeBookmarks(A,L,P)$/;"	f
+completion_filter	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:completion_filter(results,A)$/;"	f
+controller	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:controller(...)$/;"	f
+controllerEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:controllerEdit(cmd,...)$/;"	f
+controllerList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:controllerList(A,L,P)$/;"	f
+count	home/.vim/bundle/vim-liquid/indent/liquid.vim	/^function! s:count(string,pattern)$/;"	f
+cr	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^nmap cr  <Plug>Coerce$/;"	m
+createTreeWin	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:createTreeWin()$/;"	f
+create_dictionary	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:create_dictionary(lhs,rhs,opts)$/;"	f
+createtimehandler	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:createtimehandler(format)$/;"	f
+crend	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! s:crend(always)$/;"	f
+cs	home/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap      cs   <Plug>Csurround$/;"	m
+d<C-A>	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^    nmap d<C-A>     <Plug>SpeedDatingNowUTC$/;"	m
+d<C-X>	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^    nmap d<C-X>     <Plug>SpeedDatingNowLocal$/;"	m
+darkburn.vim	home/.vim/colors/darkburn.vim	1;"	F
+dashcase	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:dashcase(word)$/;"	f
+dateincrement	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:dateincrement(string,offset,increment) dict$/;"	f
+dbext	home/.vim/plugin/dbext.vim	/^augroup dbext$/;"	a
+dbext#DB_DictionaryCreate	home/.vim/autoload/dbext.vim	/^function! dbext#DB_DictionaryCreate( drop_dict, which ) "{{{$/;"	f
+dbext#DB_auBufDelete	home/.vim/autoload/dbext.vim	/^function! dbext#DB_auBufDelete(del_buf_nr) "{{{$/;"	f
+dbext#DB_auVimLeavePre	home/.vim/autoload/dbext.vim	/^function! dbext#DB_auVimLeavePre() "{{{$/;"	f
+dbext#DB_auVimLeavePreOld	home/.vim/autoload/dbext.vim	/^function! dbext#DB_auVimLeavePreOld() "{{{$/;"	f
+dbext#DB_checkModeline	home/.vim/autoload/dbext.vim	/^function! dbext#DB_checkModeline()$/;"	f
+dbext#DB_commit	home/.vim/autoload/dbext.vim	/^function! dbext#DB_commit()$/;"	f
+dbext#DB_completeSettings	home/.vim/autoload/dbext.vim	/^function! dbext#DB_completeSettings(ArgLead, CmdLine, CursorPos)$/;"	f
+dbext#DB_completeTables	home/.vim/autoload/dbext.vim	/^function! dbext#DB_completeTables(ArgLead, CmdLine, CursorPos)$/;"	f
+dbext#DB_completeVariable	home/.vim/autoload/dbext.vim	/^function! dbext#DB_completeVariable(ArgLead, CmdLine, CursorPos)$/;"	f
+dbext#DB_connect	home/.vim/autoload/dbext.vim	/^function! dbext#DB_connect()$/;"	f
+dbext#DB_describeProcedure	home/.vim/autoload/dbext.vim	/^function! dbext#DB_describeProcedure(...)$/;"	f
+dbext#DB_describeProcedurePrompt	home/.vim/autoload/dbext.vim	/^function! dbext#DB_describeProcedurePrompt()$/;"	f
+dbext#DB_describeTable	home/.vim/autoload/dbext.vim	/^function! dbext#DB_describeTable(...)$/;"	f
+dbext#DB_describeTablePrompt	home/.vim/autoload/dbext.vim	/^function! dbext#DB_describeTablePrompt()$/;"	f
+dbext#DB_disconnect	home/.vim/autoload/dbext.vim	/^function! dbext#DB_disconnect()$/;"	f
+dbext#DB_execFuncTypeWCheck	home/.vim/autoload/dbext.vim	/^function! dbext#DB_execFuncTypeWCheck(name,...)$/;"	f
+dbext#DB_execFuncWCheck	home/.vim/autoload/dbext.vim	/^function! dbext#DB_execFuncWCheck(name,...)$/;"	f
+dbext#DB_execRangeSql	home/.vim/autoload/dbext.vim	/^function! dbext#DB_execRangeSql() range$/;"	f
+dbext#DB_execSql	home/.vim/autoload/dbext.vim	/^function! dbext#DB_execSql(query)$/;"	f
+dbext#DB_execSqlTopX	home/.vim/autoload/dbext.vim	/^function! dbext#DB_execSqlTopX(...)$/;"	f
+dbext#DB_execSqlWithDefault	home/.vim/autoload/dbext.vim	/^function! dbext#DB_execSqlWithDefault(...)$/;"	f
+dbext#DB_getDictionaryName	home/.vim/autoload/dbext.vim	/^function! dbext#DB_getDictionaryName( which ) "{{{$/;"	f
+dbext#DB_getListColumn	home/.vim/autoload/dbext.vim	/^function! dbext#DB_getListColumn(table_name, silent_mode, use_newline_sep ) $/;"	f
+dbext#DB_getListConnections	home/.vim/autoload/dbext.vim	/^function! dbext#DB_getListConnections()$/;"	f
+dbext#DB_getListProcedure	home/.vim/autoload/dbext.vim	/^function! dbext#DB_getListProcedure(...)$/;"	f
+dbext#DB_getListTable	home/.vim/autoload/dbext.vim	/^function! dbext#DB_getListTable(...)$/;"	f
+dbext#DB_getListView	home/.vim/autoload/dbext.vim	/^function! dbext#DB_getListView(...)$/;"	f
+dbext#DB_getQueryUnderCursor	home/.vim/autoload/dbext.vim	/^function! dbext#DB_getQueryUnderCursor()$/;"	f
+dbext#DB_getSqlWithDefault	home/.vim/autoload/dbext.vim	/^function! dbext#DB_getSqlWithDefault(...)$/;"	f
+dbext#DB_getWType	home/.vim/autoload/dbext.vim	/^function! dbext#DB_getWType(name)$/;"	f
+dbext#DB_historyList	home/.vim/autoload/dbext.vim	/^function! dbext#DB_historyList()$/;"	f
+dbext#DB_listOption	home/.vim/autoload/dbext.vim	/^function! dbext#DB_listOption(...)$/;"	f
+dbext#DB_orientationToggle	home/.vim/autoload/dbext.vim	/^function! dbext#DB_orientationToggle(...)$/;"	f
+dbext#DB_parseQuery	home/.vim/autoload/dbext.vim	/^function! dbext#DB_parseQuery(query)$/;"	f
+dbext#DB_removeVariable	home/.vim/autoload/dbext.vim	/^function! dbext#DB_removeVariable() range$/;"	f
+dbext#DB_rollback	home/.vim/autoload/dbext.vim	/^function! dbext#DB_rollback()$/;"	f
+dbext#DB_runPrevCmd	home/.vim/autoload/dbext.vim	/^function! dbext#DB_runPrevCmd(...)$/;"	f
+dbext#DB_selectTablePrompt	home/.vim/autoload/dbext.vim	/^function! dbext#DB_selectTablePrompt()$/;"	f
+dbext#DB_setMultipleOptions	home/.vim/autoload/dbext.vim	/^function! dbext#DB_setMultipleOptions(multi_options, ...)$/;"	f
+dbext#DB_setTitle	home/.vim/autoload/dbext.vim	/^function! dbext#DB_setTitle() $/;"	f
+dbext#DB_sqlVarAssignment	home/.vim/autoload/dbext.vim	/^function! dbext#DB_sqlVarAssignment(drop_var, stmt)$/;"	f
+dbext#DB_sqlVarList	home/.vim/autoload/dbext.vim	/^function! dbext#DB_sqlVarList(...)$/;"	f
+dbext#DB_sqlVarRangeAssignment	home/.vim/autoload/dbext.vim	/^function! dbext#DB_sqlVarRangeAssignment(remove_var) range$/;"	f
+dbext#DB_switchPrevBuf	home/.vim/autoload/dbext.vim	/^function! dbext#DB_switchPrevBuf()$/;"	f
+dbext#DB_windowClose	home/.vim/autoload/dbext.vim	/^function! dbext#DB_windowClose(buf_name)$/;"	f
+dbext#DB_windowOpen	home/.vim/autoload/dbext.vim	/^function! dbext#DB_windowOpen()$/;"	f
+dbext#DB_windowResize	home/.vim/autoload/dbext.vim	/^function! dbext#DB_windowResize()$/;"	f
+dbext.vim	home/.vim/autoload/dbext.vim	1;"	F
+dbext.vim	home/.vim/plugin/dbext.vim	1;"	F
+dbext_dbi#DBI_load_perl_subs	home/.vim/autoload/dbext_dbi.vim	/^function! dbext_dbi#DBI_load_perl_subs()$/;"	f
+dbext_dbi.vim	home/.vim/autoload/dbext_dbi.vim	1;"	F
+debug	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:debug(str)$/;"	f
+define_commands	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:define_commands()$/;"	f
+deleteBookmark	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:deleteBookmark()$/;"	f
+did_javascript_syn_inits	home/.vim/bundle/vim-javascript/syntax/javascript.vim	/^    let did_javascript_syn_inits = 1$/;"	v
+disableescape	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:disableescape()$/;"	f
+dispatcher	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:dispatcher(bang,line1,line2,count,args)$/;"	f
+displayHelp	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:displayHelp()$/;"	f
+div	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:div(a,b)$/;"	f
+django.vim	home/.vim/colors/django.vim	1;"	F
+djump	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:djump(def)$/;"	f
+doctypeSeek	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:doctypeSeek()$/;"	f
+dosurround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:dosurround(...) " {{{1$/;"	f
+ds	home/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap      ds   <Plug>Dsurround$/;"	m
+dumpHelp	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:dumpHelp()$/;"	f
+echo	home/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echo(msg)$/;"	f
+echo	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:echo(msg)$/;"	f
+echoError	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:echoError(msg)$/;"	f
+echoWarning	home/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echoWarning(msg)$/;"	f
+echoWarning	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:echoWarning(msg)$/;"	f
+edit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:edit(cmd,file,...)$/;"	f
+editcmdfor	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:editcmdfor(cmd)$/;"	f
+egrep_pattern	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:egrep_pattern(dict,boundaries)$/;"	f
+encodeURIComponent	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:encodeURIComponent(instr)$/;"	f
+endof	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:endof(lnum)$/;"	f
+endwise.vim	home/.vim/bundle/vim-endwise/plugin/endwise.vim	1;"	F
+environment	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:environment()$/;"	f
+environmentEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:environmentEdit(cmd,...)$/;"	f
+environmentList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:environmentList(A,L,P)$/;"	f
+error	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:error(str)$/;"	f
+error	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:error(str)$/;"	f
+escarg	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:escarg(p)$/;"	f
+esccmd	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:esccmd(p)$/;"	f
+escvar	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:escvar(r)$/;"	f
+exec	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:exec(cmd)$/;"	f
+exec_menuitem.vim	home/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	1;"	F
+expand_braces	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:expand_braces(dict)$/;"	f
+extractafter	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:extractafter(str)$/;"	f
+extractbefore	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:extractbefore(str)$/;"	f
+extractdbvar	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:extractdbvar(str,arg)$/;"	f
+extractopts	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:extractopts(list,opts)$/;"	f
+file_getline	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:file_getline(lnum,...) dict abort$/;"	f
+file_lines	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:file_lines() dict abort$/;"	f
+file_name	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:file_name() dict abort$/;"	f
+file_path	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:file_path() dict abort$/;"	f
+findAndRevealPath	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:findAndRevealPath()$/;"	f
+find_command	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:find_command(cmd,flags,word)$/;"	f
+findamethod	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:findamethod(func,repl)$/;"	f
+findasymbol	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:findasymbol(sym,repl)$/;"	f
+findatoffset	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:findatoffset(string,pattern,offset)$/;"	f
+findcmdfor	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:findcmdfor(cmd)$/;"	f
+findedit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:findedit(cmd,files,...) abort$/;"	f
+findfromview	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:findfromview(func,repl)$/;"	f
+findinline	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:findinline(pattern)$/;"	f
+findit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:findit(pat,repl)$/;"	f
+findlayout	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:findlayout(name)$/;"	f
+findview	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:findview(name)$/;"	f
+firstUsableWindow	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:firstUsableWindow()$/;"	f
+fixindent	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:fixindent(str,spc)$/;"	f
+fixturesEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:fixturesEdit(cmd,...)$/;"	f
+fixturesList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:fixturesList(A,L,P)$/;"	f
+fnameescape	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:fnameescape(file) abort$/;"	f
+format	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:format(...)$/;"	f
+formattz	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:formattz(offset)$/;"	f
+fs_menu.vim	home/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	1;"	F
+fugitive	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive$/;"	a
+fugitive#buffer	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#buffer(...) abort$/;"	f
+fugitive#reload_status	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#reload_status() abort$/;"	f
+fugitive#statusline	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#statusline(...)$/;"	f
+fugitive.vim	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	1;"	F
+fugitive_blame	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_blame$/;"	a
+fugitive_commit	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_commit$/;"	a
+fugitive_diff	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_diff$/;"	a
+fugitive_files	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_files$/;"	a
+fugitive_remove	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_remove$/;"	a
+fugitive_utility	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_utility$/;"	a
+function	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:function(name)$/;"	f
+function	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:function(name) abort$/;"	f
+function	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:function(name)$/;"	f
+function	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:function(name)$/;"	f
+function	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:function(name)$/;"	f
+functionaltestEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:functionaltestEdit(cmd,...)$/;"	f
+functionaltestList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:functionaltestList(A,L,P)$/;"	f
+fuzzyglob	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:fuzzyglob(arg)$/;"	f
+g:NERDTreeBookmark	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let g:NERDTreeBookmark = s:Bookmark$/;"	v
+g:NERDTreeDirNode	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let g:NERDTreeDirNode = s:TreeDirNode$/;"	v
+g:NERDTreeFileNode	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let g:NERDTreeFileNode = s:TreeFileNode$/;"	v
+g:NERDTreeIgnore	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeIgnore = ['\\~$']$/;"	v
+g:NERDTreePath	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let g:NERDTreePath = s:Path$/;"	v
+g:NERDTreeSortOrder	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeSortOrder = ['\\\/$', '*', '\\.swp$',  '\\.bak$', '\\~$']$/;"	v
+g:NERDTreeStatusline	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeStatusline = "%{exists('b:NERDTreeRoot')?b:NERDTreeRoot.path.str():''}"$/;"	v
+g:abolish_save_file	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^        let g:abolish_save_file = expand("<sfile>:h:h")."\/after\/plugin\/abolish.vim"$/;"	v
+g:abolish_save_file	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^        let g:abolish_save_file = expand("~\/.vim\/after\/plugin\/abolish.vim")$/;"	v
+g:abolish_save_file	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^        let g:abolish_save_file = expand("~\/vimfiles\/after\/plugin\/abolish.vim")$/;"	v
+g:autoloaded_rails	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let g:autoloaded_rails = '4.2'$/;"	v
+g:colors_name	home/.vim/colors/darkburn.vim	/^let g:colors_name="darkburn"$/;"	v
+g:colors_name	home/.vim/colors/github.vim	/^let g:colors_name="github"$/;"	v
+g:colors_name	home/.vim/colors/molokai.vim	/^let g:colors_name="molokai"$/;"	v
+g:colors_name	home/.vim/colors/vibrantink.vim	/^let g:colors_name = "vibrantink"$/;"	v
+g:colors_name	home/.vim/colors/vylight.vim	/^let g:colors_name="vylight"$/;"	v
+g:colors_name	home/.vim/colors/xoria256.vim	/^let g:colors_name = "xoria256"$/;"	v
+g:darkburn_alternate_Error	home/.vim/colors/darkburn.vim	/^      let g:darkburn_alternate_Error = 1$/;"	v
+g:darkburn_alternate_Include	home/.vim/colors/darkburn.vim	/^      let g:darkburn_alternate_Include = 1$/;"	v
+g:darkburn_force_dark_Background	home/.vim/colors/darkburn.vim	/^      let g:darkburn_force_dark_Background = 1$/;"	v
+g:darkburn_high_Contrast	home/.vim/colors/darkburn.vim	/^     let g:darkburn_high_Contrast = 1$/;"	v
+g:dbext_dbi_debug	home/.vim/autoload/dbext_dbi.vim	/^   let g:dbext_dbi_debug = 0$/;"	v
+g:dbext_dbi_max_rows	home/.vim/autoload/dbext_dbi.vim	/^   let g:dbext_dbi_max_rows = 300$/;"	v
+g:dbext_dbi_msg	home/.vim/autoload/dbext_dbi.vim	/^   let g:dbext_dbi_msg = ""$/;"	v
+g:dbext_dbi_result	home/.vim/autoload/dbext_dbi.vim	/^   let g:dbext_dbi_result = -1$/;"	v
+g:dbext_dbi_sql	home/.vim/autoload/dbext_dbi.vim	/^   let g:dbext_dbi_sql = ""$/;"	v
+g:dbext_dbi_trace_level	home/.vim/autoload/dbext_dbi.vim	/^   let g:dbext_dbi_trace_level = 0$/;"	v
+g:dbext_default_dbi_column_delimiter	home/.vim/autoload/dbext_dbi.vim	/^   let g:dbext_default_dbi_column_delimiter = "  "$/;"	v
+g:dbext_default_menu_mode	home/.vim/plugin/dbext.vim	/^    let g:dbext_default_menu_mode = 3$/;"	v
+g:dbext_rows_affected	home/.vim/plugin/dbext.vim	/^    let g:dbext_rows_affected = 0$/;"	v
+g:fugitive_git_executable	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^  let g:fugitive_git_executable = 'git'$/;"	v
+g:fugitive_summary_format	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^  let g:fugitive_summary_format = '%s'$/;"	v
+g:gist_browser_command	home/.vim/bundle/vim-gist/plugin/gist.vim	/^    let g:gist_browser_command = "!start rundll32 url.dll,FileProtocolHandler %URL%"$/;"	v
+g:gist_browser_command	home/.vim/bundle/vim-gist/plugin/gist.vim	/^    let g:gist_browser_command = "firefox %URL% &"$/;"	v
+g:gist_browser_command	home/.vim/bundle/vim-gist/plugin/gist.vim	/^    let g:gist_browser_command = "open %URL%"$/;"	v
+g:gist_browser_command	home/.vim/bundle/vim-gist/plugin/gist.vim	/^    let g:gist_browser_command = "xdg-open %URL%"$/;"	v
+g:gist_detect_filetype	home/.vim/bundle/vim-gist/plugin/gist.vim	/^  let g:gist_detect_filetype = 0$/;"	v
+g:gist_open_browser_after_post	home/.vim/bundle/vim-gist/plugin/gist.vim	/^  let g:gist_open_browser_after_post = 0$/;"	v
+g:gist_put_url_to_clipboard_after_post	home/.vim/bundle/vim-gist/plugin/gist.vim	/^  let g:gist_put_url_to_clipboard_after_post = 1$/;"	v
+g:gist_show_privates	home/.vim/bundle/vim-gist/plugin/gist.vim	/^  let g:gist_show_privates = 0$/;"	v
+g:haml_self_closing_tags	home/.vim/bundle/vim-haml/indent/haml.vim	/^  let g:haml_self_closing_tags = 'meta|link|img|hr|br'$/;"	v
+g:liquid_default_subtype	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let g:liquid_default_subtype = 'html'$/;"	v
+g:liquid_default_subtype	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^  let g:liquid_default_subtype = 'html'$/;"	v
+g:liquid_highlight_types	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^  let g:liquid_highlight_types = []$/;"	v
+g:loaded_abolish	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let g:loaded_abolish = 1$/;"	v
+g:loaded_dbext	home/.vim/plugin/dbext.vim	/^let g:loaded_dbext = 1101$/;"	v
+g:loaded_dbext_auto	home/.vim/autoload/dbext.vim	/^let g:loaded_dbext_auto = 1101$/;"	v
+g:loaded_dbext_dbi	home/.vim/autoload/dbext_dbi.vim	/^    let g:loaded_dbext_dbi = -1$/;"	v
+g:loaded_dbext_dbi	home/.vim/autoload/dbext_dbi.vim	/^let g:loaded_dbext_dbi = 1101$/;"	v
+g:loaded_dbext_dbi_msg	home/.vim/autoload/dbext_dbi.vim	/^    let g:loaded_dbext_dbi_msg = 'Vim does not have perl support enabled'$/;"	v
+g:loaded_endwise	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^let g:loaded_endwise = 1$/;"	v
+g:loaded_fugitive	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let g:loaded_fugitive = 1$/;"	v
+g:loaded_gist_vim	home/.vim/bundle/vim-gist/plugin/gist.vim	/^let g:loaded_gist_vim = 1$/;"	v
+g:loaded_nerdtree_exec_menuitem	home/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^let g:loaded_nerdtree_exec_menuitem = 1$/;"	v
+g:loaded_nerdtree_fs_menu	home/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^let g:loaded_nerdtree_fs_menu = 1$/;"	v
+g:loaded_pathogen	home/.vim/autoload/pathogen.vim	/^let g:loaded_pathogen = 1$/;"	v
+g:loaded_pathogen	vendor/vim-pathogen/autoload/pathogen.vim	/^let g:loaded_pathogen = 1$/;"	v
+g:loaded_ragtag	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^let g:loaded_ragtag = 1$/;"	v
+g:loaded_rails	home/.vim/bundle/vim-rails/plugin/rails.vim	/^let g:loaded_rails = 1$/;"	v
+g:loaded_repeat	home/.vim/bundle/vim-repeat/autoload/repeat.vim	/^let g:loaded_repeat = 1$/;"	v
+g:loaded_speeddating	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let g:loaded_speeddating = 1$/;"	v
+g:loaded_surround	home/.vim/bundle/vim-surround/plugin/surround.vim	/^let g:loaded_surround = 1$/;"	v
+g:makegreen_loaded	home/.vim/bundle/vim-makegreen/plugin/makegreen.vim	/^let g:makegreen_loaded = 1$/;"	v
+g:repeat_tick	home/.vim/bundle/vim-repeat/autoload/repeat.vim	/^let g:repeat_tick = -1$/;"	v
+g:speeddating_handlers	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let g:speeddating_handlers += [{'regexp': '-\\=\\<\\d\\+\\%(st\\|nd\\|rd\\|th\\)\\>', 'increment': s:function("s:ordinalincrement")}]$/;"	v
+g:speeddating_handlers	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let g:speeddating_handlers = []$/;"	v
+g:speeddating_zone	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^        let g:speeddating_zone = get({-8:'PST',-7:'MST',-6:'CST',-5:'EST',0:'WET',1:'CET',2:'EET'},s:offset\/60,"XST")$/;"	v
+g:speeddating_zone	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^    let g:speeddating_zone = strftime("%Z",30*365*86400)$/;"	v
+g:speeddating_zone_dst	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^            let g:speeddating_zone_dst = g:speeddating_zone$/;"	v
+g:speeddating_zone_dst	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^            let g:speeddating_zone_dst = get({-7:'PDT',-6:'MDT',-5:'CDT',-4:'EDT',1:'WEST',2:'CEST',3:'EEST'},s:offset_dst\/60,"XDT")$/;"	v
+g:speeddating_zone_dst	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^    let g:speeddating_zone_dst = strftime("%Z",(180+30*365)*86400)$/;"	v
+gS	home/.vim/bundle/vim-surround/plugin/surround.vim	/^    vmap    gS   <Plug>VgSurround$/;"	m
+getPath	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:getPath(ln)$/;"	f
+getTreeWinNum	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:getTreeWinNum()$/;"	f
+getchar	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:getchar()$/;"	f
+getinput	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:getinput()$/;"	f
+getopt	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:getopt(opt,...)$/;"	f
+getpidfor	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:getpidfor(bind,port)$/;"	f
+gist.vim	home/.vim/bundle/vim-gist/plugin/gist.vim	1;"	F
+github.vim	home/.vim/colors/github.vim	1;"	F
+gregorian	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:gregorian(jd)$/;"	f
+grep_command	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:grep_command(args,bang,flags,word)$/;"	f
+gsub	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:gsub(str,pat,rep) abort$/;"	f
+gsub	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:gsub(str,pat,rep)$/;"	f
+gsub	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:gsub(str,pat,rep)$/;"	f
+haml.vim	home/.vim/bundle/vim-haml/ftdetect/haml.vim	1;"	F
+haml.vim	home/.vim/bundle/vim-haml/ftplugin/haml.vim	1;"	F
+haml.vim	home/.vim/bundle/vim-haml/indent/haml.vim	1;"	F
+haml.vim	home/.vim/bundle/vim-haml/syntax/haml.vim	1;"	F
+handleMiddleMouse	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:handleMiddleMouse()$/;"	f
+helperEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:helperEdit(cmd,...)$/;"	f
+helperList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:helperList(A,L,P)$/;"	f
+helpermethods	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:helpermethods()$/;"	f
+hibg	home/.vim/colors/vividchalk.vim	/^function! s:hibg(group,guibg,first,second)$/;"	f
+hifg	home/.vim/colors/vividchalk.vim	/^function! s:hifg(group,guifg,first,second,...)$/;"	f
+htmlDis	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:htmlDis()$/;"	f
+htmlEn	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:htmlEn()$/;"	f
+increment	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:increment(increment)$/;"	f
+incrementstring	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:incrementstring(string,offset,count)$/;"	f
+incrementvisual	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:incrementvisual(count)$/;"	f
+indentLevelFor	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:indentLevelFor(line)$/;"	f
+initNerdTree	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initNerdTree(name)$/;"	f
+initNerdTreeInPlace	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initNerdTreeInPlace(dir)$/;"	f
+initNerdTreeMirror	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initNerdTreeMirror()$/;"	f
+initOpenURL	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:initOpenURL()$/;"	f
+initVariable	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
+initializerEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:initializerEdit(cmd,...)$/;"	f
+initializerList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:initializerList(A,L,P)$/;"	f
+initializetime	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:initializetime(time)$/;"	f
+inputreplacement	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:inputreplacement()$/;"	f
+inputtarget	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:inputtarget()$/;"	f
+insert	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:insert(...) " {{{1$/;"	f
+insertTag	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:insertTag(tag)$/;"	f
+integrationtestEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:integrationtestEdit(cmd,...)$/;"	f
+integrationtestList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:integrationtestList(A,L,P)$/;"	f
+invertrange	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:invertrange(beg,end)$/;"	f
+isTreeOpen	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:isTreeOpen()$/;"	f
+isWindowUsable	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:isWindowUsable(winnumber)$/;"	f
+javascript.vim	home/.vim/bundle/vim-javascript/indent/javascript.vim	1;"	F
+javascript.vim	home/.vim/bundle/vim-javascript/syntax/javascript.vim	1;"	F
+javascriptEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:javascriptEdit(cmd,...)$/;"	f
+javascriptIncludeTag	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:javascriptIncludeTag()$/;"	f
+javascriptList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:javascriptList(A,L,P)$/;"	f
+jd	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:jd(year,mon,day)$/;"	f
+jumpToChild	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToChild(direction)$/;"	f
+jumpToFirstChild	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToFirstChild()$/;"	f
+jumpToLastChild	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToLastChild()$/;"	f
+jumpToParent	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToParent()$/;"	f
+jumpToRoot	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToRoot()$/;"	f
+jumpToSibling	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToSibling(forward)$/;"	f
+lastformat	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:lastformat(start)$/;"	f
+lastmethod	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:lastmethod(...)$/;"	f
+lastmethodline	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:lastmethodline(start)$/;"	f
+lastopeningline	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:lastopeningline(pattern,limit,start)$/;"	f
+layoutEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:layoutEdit(cmd,...)$/;"	f
+layoutList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:layoutList(A,L,P)$/;"	f
+leader	home/.vim/plugin/dbext.vim	/^        let leader = g:mapleader$/;"	v
+leader	home/.vim/plugin/dbext.vim	/^    let leader = '\\'$/;"	v
+leader	home/.vim/plugin/dbext.vim	/^    let leader = escape(leader, '\\')$/;"	v
+length	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:length(str)$/;"	f
+letterincrement	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:letterincrement(string,offset,increment)$/;"	f
+libEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:libEdit(cmd,...)$/;"	f
+libList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:libList(A,L,P)$/;"	f
+linepeak	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:linepeak()$/;"	f
+liquid.vim	home/.vim/bundle/vim-liquid/ftdetect/liquid.vim	1;"	F
+liquid.vim	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	1;"	F
+liquid.vim	home/.vim/bundle/vim-liquid/indent/liquid.vim	1;"	F
+liquid.vim	home/.vim/bundle/vim-liquid/syntax/liquid.vim	1;"	F
+loaded_nerd_tree	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let loaded_nerd_tree = 1$/;"	v
+localeEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:localeEdit(cmd,...)$/;"	f
+localeList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:localeList(A,L,P)$/;"	f
+localtime	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:localtime(...)$/;"	f
+mailerEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:mailerEdit(cmd,...)$/;"	f
+mailerList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:mailerList(A,L,P)$/;"	f
+main_syntax	home/.vim/bundle/vim-haml/syntax/haml.vim	/^  let main_syntax = 'haml'$/;"	v
+main_syntax	home/.vim/bundle/vim-javascript/syntax/javascript.vim	/^  let main_syntax = 'javascript'$/;"	v
+main_syntax	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^  let main_syntax = 'liquid'$/;"	v
+makegreen.vim	home/.vim/bundle/vim-makegreen/plugin/makegreen.vim	1;"	F
+makewithruby	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:makewithruby(arg,bang,...)$/;"	f
+markdown.vim	home/.vim/bundle/vim-markdown/ftdetect/markdown.vim	1;"	F
+markdown.vim	home/.vim/bundle/vim-markdown/ftplugin/markdown.vim	1;"	F
+markdown.vim	home/.vim/bundle/vim-markdown/syntax/markdown.vim	1;"	F
+match	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:match(...)$/;"	f
+match_type	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:match_type(type,...)$/;"	f
+matchcursor	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:matchcursor(pat)$/;"	f
+menuBufEnter	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:menuBufEnter()$/;"	f
+menuBufLeave	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:menuBufLeave()$/;"	f
+menuRoot	home/.vim/plugin/dbext.vim	/^        let menuRoot = '&Plugin.&dbext'$/;"	v
+menuRoot	home/.vim/plugin/dbext.vim	/^        let menuRoot = '&dbext'$/;"	v
+menuRoot	home/.vim/plugin/dbext.vim	/^        let menuRoot = 'dbext'$/;"	v
+menucmd	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:menucmd(priority)$/;"	f
+menuprompt	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:menuprompt(vimcmd,prompt)$/;"	f
+metalEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:metalEdit(cmd,...)$/;"	f
+metalList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:metalList(A,L,P)$/;"	f
+mextargs	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:mextargs(str,num)$/;"	f
+migrationEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:migrationEdit(cmd,...)$/;"	f
+migrationList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:migrationList(A,L,P)$/;"	f
+migspc	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:migspc(line)$/;"	f
+mixedcase	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:mixedcase(word)$/;"	f
+mkeep	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:mkeep(str)$/;"	f
+mod	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:mod(a,b)$/;"	f
+model	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:model(...)$/;"	f
+modelEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:modelEdit(cmd,...)$/;"	f
+modelList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:modelList(A,L,P)$/;"	f
+modyear	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:modyear(y)$/;"	f
+molokai.vim	home/.vim/colors/molokai.vim	1;"	F
+mysearchpair	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! s:mysearchpair(beginpat,endpat,synpat)$/;"	f
+nextBufferName	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:nextBufferName()$/;"	f
+normalize_options	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:normalize_options(flags)$/;"	f
+normalizetime	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:normalizetime(time)$/;"	f
+nr2hex	home/.vim/bundle/vim-gist/plugin/gist.vim	/^function! s:nr2hex(nr)$/;"	f
+numberincrement	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:numberincrement(string,offset,increment)$/;"	f
+object.clone	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:object.clone(...)$/;"	f
+observerEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:observerEdit(cmd,...)$/;"	f
+observerList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:observerList(A,L,P)$/;"	f
+openBookmark	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:openBookmark(name)$/;"	f
+openEntrySplit	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:openEntrySplit(vertical, forceKeepWindowOpen)$/;"	f
+openExplorer	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:openExplorer()$/;"	f
+openInNewTab	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:openInNewTab(stayCurrentTab)$/;"	f
+openNodeRecursively	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:openNodeRecursively()$/;"	f
+opfunc	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:opfunc(type,...) " {{{1$/;"	f
+opfunc2	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:opfunc2(arg)$/;"	f
+opts	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:opts()$/;"	f
+ordinalincrement	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:ordinalincrement(string,offset,increment)$/;"	f
+ordinalize	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:ordinalize(number)$/;"	f
+parse_substitute	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:parse_substitute(bang,line1,line2,count,args)$/;"	f
+parse_subvert	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:parse_subvert(bang,line1,line2,count,args)$/;"	f
+pathjoin	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:pathjoin(...) abort$/;"	f
+pathogen#glob	home/.vim/autoload/pathogen.vim	/^function! pathogen#glob(pattern) abort " {{{1$/;"	f
+pathogen#glob	vendor/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#glob(pattern) abort " {{{1$/;"	f
+pathogen#glob_directories	home/.vim/autoload/pathogen.vim	/^function! pathogen#glob_directories(pattern) abort " {{{1$/;"	f
+pathogen#glob_directories	vendor/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#glob_directories(pattern) abort " {{{1$/;"	f
+pathogen#helptags	home/.vim/autoload/pathogen.vim	/^function! pathogen#helptags() " {{{1$/;"	f
+pathogen#helptags	vendor/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#helptags() " {{{1$/;"	f
+pathogen#join	home/.vim/autoload/pathogen.vim	/^function! pathogen#join(...) abort " {{{1$/;"	f
+pathogen#join	vendor/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#join(...) abort " {{{1$/;"	f
+pathogen#legacyjoin	home/.vim/autoload/pathogen.vim	/^function! pathogen#legacyjoin(...) abort " {{{1$/;"	f
+pathogen#legacyjoin	vendor/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#legacyjoin(...) abort " {{{1$/;"	f
+pathogen#runtime_append_all_bundles	home/.vim/autoload/pathogen.vim	/^function! pathogen#runtime_append_all_bundles(...) " {{{1$/;"	f
+pathogen#runtime_append_all_bundles	vendor/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#runtime_append_all_bundles(...) " {{{1$/;"	f
+pathogen#runtime_prepend_subdirectories	home/.vim/autoload/pathogen.vim	/^function! pathogen#runtime_prepend_subdirectories(path) " {{{1$/;"	f
+pathogen#runtime_prepend_subdirectories	vendor/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#runtime_prepend_subdirectories(path) " {{{1$/;"	f
+pathogen#separator	home/.vim/autoload/pathogen.vim	/^function! pathogen#separator() abort " {{{1$/;"	f
+pathogen#separator	vendor/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#separator() abort " {{{1$/;"	f
+pathogen#split	home/.vim/autoload/pathogen.vim	/^function! pathogen#split(path) abort " {{{1$/;"	f
+pathogen#split	vendor/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#split(path) abort " {{{1$/;"	f
+pathogen#uniq	home/.vim/autoload/pathogen.vim	/^function! pathogen#uniq(list) abort " {{{1$/;"	f
+pathogen#uniq	vendor/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#uniq(list) abort " {{{1$/;"	f
+pathogen.vim	home/.vim/autoload/pathogen.vim	1;"	F
+pathogen.vim	vendor/vim-pathogen/autoload/pathogen.vim	1;"	F
+pathsplit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:pathsplit(path) abort$/;"	f
+pattern	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:pattern(dict,boundaries)$/;"	f
+pluginEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:pluginEdit(cmd,...)$/;"	f
+pluginList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:pluginList(A,L,P)$/;"	f
+pop_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:pop_command()$/;"	f
+prephelp	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:prephelp()$/;"	f
+previewNode	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:previewNode(openNewWin)$/;"	f
+process	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:process(string)$/;"	f
+promptToDelBuffer	home/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
+promptToDelBuffer	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
+push_chdir	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:push_chdir(...)$/;"	f
+putCursorInTreeWin	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:putCursorInTreeWin()$/;"	f
+putCursorOnBookmarkTable	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:putCursorOnBookmarkTable()$/;"	f
+ragtag	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^  augroup ragtag$/;"	a
+ragtag.vim	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	1;"	F
+rails#STATUSLINE	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#STATUSLINE(...)$/;"	f
+rails#app	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#app(...)$/;"	f
+rails#buffer	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#buffer(...)$/;"	f
+rails#cache_clear	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#cache_clear(...)$/;"	f
+rails#camelize	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#camelize(str)$/;"	f
+rails#log_syntax	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#log_syntax()$/;"	f
+rails#new_app_command	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#new_app_command(bang,...)$/;"	f
+rails#pluralize	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#pluralize(word)$/;"	f
+rails#singularize	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#singularize(word)$/;"	f
+rails#statusline	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#statusline(...)$/;"	f
+rails#underscore	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! rails#underscore(str)$/;"	f
+rails.vim	home/.vim/bundle/vim-rails/autoload/rails.vim	1;"	F
+rails.vim	home/.vim/bundle/vim-rails/plugin/rails.vim	1;"	F
+railsPluginAbolish	home/.vim/bundle/vim-rails/plugin/rails.vim	/^augroup railsPluginAbolish$/;"	a
+railsPluginAuto	home/.vim/bundle/vim-rails/autoload/rails.vim	/^augroup railsPluginAuto$/;"	a
+railsPluginDetect	home/.vim/bundle/vim-rails/plugin/rails.vim	/^augroup railsPluginDetect$/;"	a
+railsPluginMenu	home/.vim/bundle/vim-rails/plugin/rails.vim	/^augroup railsPluginMenu$/;"	a
+readable_app	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_app() dict abort$/;"	f
+readable_calculate_file_type	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_calculate_file_type() dict abort$/;"	f
+readable_controller_name	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_controller_name(...) dict abort$/;"	f
+readable_default_rake_task	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_default_rake_task(lnum) dict abort$/;"	f
+readable_define_pattern	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_define_pattern() dict abort$/;"	f
+readable_end_of	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_end_of(lnum) dict abort$/;"	f
+readable_last_format	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_last_format(start) dict abort$/;"	f
+readable_last_method	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_last_method(start) dict abort$/;"	f
+readable_last_method_line	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_last_method_line(start) dict abort$/;"	f
+readable_last_opening_line	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_last_opening_line(start,pattern,limit) dict abort$/;"	f
+readable_line_count	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_line_count() dict abort$/;"	f
+readable_model_name	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_model_name(...) dict abort$/;"	f
+readable_preview_urls	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_preview_urls(lnum) dict abort$/;"	f
+readable_related	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_related(...) dict abort$/;"	f
+readable_type_name	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readable_type_name() dict abort$/;"	f
+readfile	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:readfile(path,...)$/;"	f
+redraw	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:redraw()$/;"	f
+refreshCurrent	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:refreshCurrent()$/;"	f
+refreshRoot	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:refreshRoot()$/;"	f
+reindent	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:reindent() " {{{1$/;"	f
+relglob	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:relglob(...)$/;"	f
+renderBookmarks	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:renderBookmarks()$/;"	f
+renderView	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:renderView()$/;"	f
+renderViewSavingPosition	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:renderViewSavingPosition()$/;"	f
+repeat	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:repeat(str,cnt)$/;"	f
+repeat	home/.vim/bundle/vim-repeat/autoload/repeat.vim	/^function! s:repeat(count)$/;"	f
+repeat	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:repeat(str,count)$/;"	f
+repeat#set	home/.vim/bundle/vim-repeat/autoload/repeat.vim	/^function! repeat#set(sequence,...)$/;"	f
+repeat.vim	home/.vim/bundle/vim-repeat/autoload/repeat.vim	1;"	F
+repeatPlugin	home/.vim/bundle/vim-repeat/autoload/repeat.vim	/^augroup repeatPlugin$/;"	a
+replaceinline	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:replaceinline(start,end,new)$/;"	f
+repo	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo(...) abort$/;"	f
+repo_bare	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_bare() dict abort$/;"	f
+repo_dir	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_dir(...) dict abort$/;"	f
+repo_dirglob	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_dirglob(base) dict abort$/;"	f
+repo_git_chomp	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_git_chomp(...) dict abort$/;"	f
+repo_git_chomp_in_tree	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_git_chomp_in_tree(...) dict abort$/;"	f
+repo_git_command	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_git_command(...) dict abort$/;"	f
+repo_head_ref	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_head_ref() dict abort$/;"	f
+repo_keywordprg	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_keywordprg() dict abort$/;"	f
+repo_rev_parse	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_rev_parse(rev) dict abort$/;"	f
+repo_superglob	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_superglob(base) dict abort$/;"	f
+repo_translate	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_translate(spec) dict abort$/;"	f
+repo_tree	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_tree(...) dict abort$/;"	f
+resetomnicomplete	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:resetomnicomplete()$/;"	f
+restoreScreenState	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:restoreScreenState()$/;"	f
+revealBookmark	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:revealBookmark(name)$/;"	f
+roman2arabic	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:roman2arabic(roman)$/;"	f
+rquote	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:rquote(str)$/;"	f
+ruby_focused_unit_test.vim	home/.vim/plugin/ruby_focused_unit_test.vim	1;"	F
+s	home/.vim/bundle/vim-surround/plugin/surround.vim	/^      vmap  s    <Plug>Vsurround$/;"	m
+s:Bookmark	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:Bookmark = {}$/;"	v
+s:KeyMap	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:KeyMap = {}$/;"	v
+s:MenuController	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:MenuController = {}$/;"	v
+s:MenuItem	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:MenuItem = {}$/;"	v
+s:NERDTreeBufName	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:NERDTreeBufName = 'NERD_tree_'$/;"	v
+s:NERDTreeSortStarIndex	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:NERDTreeSortStarIndex = index(g:NERDTreeSortOrder, '*')$/;"	v
+s:NERD_tree_version	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:NERD_tree_version = '4.1.0'$/;"	v
+s:Path	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:Path = {}$/;"	v
+s:TreeDirNode	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:TreeDirNode = copy(s:TreeFileNode)$/;"	v
+s:TreeFileNode	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:TreeFileNode = {}$/;"	v
+s:a2r	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:a2r = [[1000, 'm'], [900, 'cm'], [500, 'd'], [400, 'cd'], [100, 'c'],$/;"	v
+s:abstract_prototype	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:abstract_prototype = {}$/;"	v
+s:app_prototype	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:app_prototype = {}$/;"	v
+s:app_prototype	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:app_prototype.cache = s:cache_prototype$/;"	v
+s:apps	home/.vim/bundle/vim-rails/autoload/rails.vim	/^  let s:apps = {}$/;"	v
+s:attributes	home/.vim/bundle/vim-haml/indent/haml.vim	/^let s:attributes = '\\%({.\\{-\\}}\\|\\[.\\{-\\}\\]\\)'$/;"	v
+s:block_regex	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:block_regex = '\\%({\\)\\s*\\%(|\\%([*@]\\=\\h\\w*,\\=\\s*\\)\\%(,\\s*[*@]\\=\\h\\w*\\)*|\\)\\=' . s:line_term$/;"	v
+s:browsefilter	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^  let s:browsefilter = b:browsefilter$/;"	v
+s:browsefilter	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^  let s:browsefilter = substitute(b:browsefilter,'\\cAll Files (\\*\\.\\*)\\t\\*\\.\\*\\n','','') . s:browsefilter$/;"	v
+s:browsefilter	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^let s:browsefilter = "All Files (*.*)\\t*.*\\n"$/;"	v
+s:buffer_prototype	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:buffer_prototype = {}$/;"	v
+s:buffer_prototype	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:buffer_prototype = {}$/;"	v
+s:cache_prototype	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:cache_prototype = {'dict': {}}$/;"	v
+s:commands	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:commands = {}$/;"	v
+s:commands	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:commands.abbrev     = s:commands.abstract.clone()$/;"	v
+s:commands	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:commands.abbrev.options = {"buffer":0,"cmdline":0,"delete":0}$/;"	v
+s:commands	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:commands.abstract = s:object.clone()$/;"	v
+s:commands	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:commands.delete   = s:commands.abbrev.clone()$/;"	v
+s:commands	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:commands.delete.options.delete = 1$/;"	v
+s:commands	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:commands.search = s:commands.abstract.clone()$/;"	v
+s:commands	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:commands.search.options = {"word": 0, "variable": 0, "flags": ""}$/;"	v
+s:commands	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:commands.substitute = s:commands.abstract.clone()$/;"	v
+s:commands	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:commands.substitute.options = {"word": 0, "variable": 0, "flags": "g"}$/;"	v
+s:commands	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:commands = []$/;"	v
+s:continuation_regex	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:continuation_regex = '\\%([\\\\*+\/.:]\\|\\%(<%\\)\\@<![=-]\\|\\W[|&?]\\|||\\|&&\\)' . s:line_term$/;"	v
+s:cpo_save	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	home/.vim/bundle/vim-surround/plugin/surround.vim	/^let s:cpo_save = &cpo$/;"	v
+s:days_abbr	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:days_abbr   =map(range(86400*3+43200-s:offset*60,86400*12,86400),'strftime("%a",v:val)')[0:6]$/;"	v
+s:days_engl	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:days_engl   =["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]$/;"	v
+s:days_full	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:days_full   =map(range(86400*3+43200-s:offset*60,86400*12,86400),'strftime("%A",v:val)')[0:6]$/;"	v
+s:dbext_buffer_last	home/.vim/autoload/dbext.vim	/^let s:dbext_buffer_last       = -1$/;"	v
+s:dbext_buffer_last_winnr	home/.vim/autoload/dbext.vim	/^let s:dbext_buffer_last_winnr = -1$/;"	v
+s:dbext_buffers_with_dict_files	home/.vim/autoload/dbext.vim	/^let s:dbext_buffers_with_dict_files = []$/;"	v
+s:dbext_prev_sql	home/.vim/autoload/dbext.vim	/^let s:dbext_prev_sql     = ''$/;"	v
+s:dbext_result_count	home/.vim/autoload/dbext.vim	/^let s:dbext_result_count = 0$/;"	v
+s:dbext_tempfile	home/.vim/autoload/dbext.vim	/^let s:dbext_tempfile = fnamemodify(tempname(), ":h").$/;"	v
+s:done_bundles	home/.vim/autoload/pathogen.vim	/^let s:done_bundles = ''$/;"	v
+s:done_bundles	vendor/vim-pathogen/autoload/pathogen.vim	/^let s:done_bundles = ''$/;"	v
+s:efm_backtrace	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:efm_backtrace='%D(in\\ %f),'$/;"	v
+s:escape_chars	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let s:escape_chars =  " \\\\`\\|\\"#%&,?()\\*^<>"$/;"	v
+s:escape_chars	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let s:escape_chars =  " `\\|\\"#%&,?()\\*^<>"$/;"	v
+s:file	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:file = expand('<sfile>:p')$/;"	v
+s:file_prototype	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:file_prototype = {}$/;"	v
+s:install_dir	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:install_dir = expand("<sfile>:p:h:h")$/;"	v
+s:line_term	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:line_term = '\\s*\\%(\\%(\\\/\\\/\\).*\\)\\=$'$/;"	v
+s:lines	home/.vim/bundle/vim-liquid/ftplugin/liquid.vim	/^  let s:lines = getline(1)."\\n".getline(2)."\\n".getline(3)."\\n".getline(4)."\\n".getline(5)."\\n".getline("$")$/;"	v
+s:lines	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^  let s:lines = getline(1)."\\n".getline(2)."\\n".getline(3)."\\n".getline(4)."\\n".getline(5)."\\n".getline("$")$/;"	v
+s:match_words	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^  let s:match_words = b:match_words . ',' . s:match_words$/;"	v
+s:match_words	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^  let s:match_words = b:match_words$/;"	v
+s:match_words	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^let s:match_words = ""$/;"	v
+s:molokai_original	home/.vim/colors/molokai.vim	/^    let s:molokai_original = 0$/;"	v
+s:molokai_original	home/.vim/colors/molokai.vim	/^    let s:molokai_original = g:molokai_original$/;"	v
+s:months_abbr	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:months_abbr =map(range(86400*2,86400*365,86400*31),'strftime("%b",v:val)')$/;"	v
+s:months_engl	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:months_engl =["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]$/;"	v
+s:months_full	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:months_full =map(range(86400*2,86400*365,86400*31),'strftime("%B",v:val)')$/;"	v
+s:msl_regex	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:msl_regex = '\\%([\\\\*+\/.:([]\\|\\%(<%\\)\\@<![=-]\\|\\W[|&?]\\|||\\|&&\\)' . s:line_term$/;"	v
+s:next_buffer_number	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:next_buffer_number = 1$/;"	v
+s:object	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^let s:object = {}$/;"	v
+s:offset	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:offset     = s:localtime((  0+30*365)*86400).o$/;"	v
+s:offset_dst	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:offset_dst = s:localtime((180+30*365)*86400).o$/;"	v
+s:old_cpo	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:old_cpo = &cpo$/;"	v
+s:one_line_scope_regex	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:one_line_scope_regex = '\\<\\%(if\\|else\\|for\\|while\\)\\>[^{;]*' . s:line_term$/;"	v
+s:property	home/.vim/bundle/vim-haml/indent/sass.vim	/^let s:property = '^\\s*:\\|^\\s*[[:alnum:]-]\\+\\%(:\\|\\s*=\\)'$/;"	v
+s:readable_prototype	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:readable_prototype = {}$/;"	v
+s:repo_prototype	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:repo_prototype = {}$/;"	v
+s:repos	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:repos = {}$/;"	v
+s:running_windows	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:running_windows = has("win16") || has("win32") || has("win64")$/;"	v
+s:save_cpo	home/.vim/autoload/dbext_dbi.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	home/.vim/bundle/vim-makegreen/plugin/makegreen.vim	/^let s:save_cpo = &cpo$/;"	v
+s:sid	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:sid = s:sub(maparg("<SID>xx"),'xx$','')$/;"	v
+s:skip_expr	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:skip_expr = "synIDattr(synID(line('.'),col('.'),1),'name') =~ '".s:syng_strcom."'"$/;"	v
+s:strftime_items	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:strftime_items = {$/;"	v
+s:subtype	home/.vim/bundle/vim-liquid/syntax/liquid.vim	/^  let s:subtype = exists('b:liquid_subtype') ? b:liquid_subtype : ''$/;"	v
+s:syng_strcom	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:syng_strcom = '\\<javaScript\\%(RegexpString\\|CommentTodo\\|LineComment\\|Comment\\|DocComment\\)\\>'$/;"	v
+s:syng_string	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:syng_string =$/;"	v
+s:syng_stringdoc	home/.vim/bundle/vim-javascript/indent/javascript.vim	/^let s:syng_stringdoc =$/;"	v
+s:tag	home/.vim/bundle/vim-haml/indent/haml.vim	/^let s:tag = '\\%([%.#][[:alnum:]_-]\\+\\|'.s:attributes.'\\)*[<>]*'$/;"	v
+s:time_handlers	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:time_handlers = []$/;"	v
+s:tree_markup_reg	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:tree_markup_reg = '^[ `|]*[\\-+~]'$/;"	v
+s:tree_up_dir_line	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:tree_up_dir_line = '.. (up a dir)'$/;"	v
+s:tree_wid	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:tree_wid = 2$/;"	v
+s:undo_ftplugin	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^  let s:undo_ftplugin = b:undo_ftplugin . " | " . s:undo_ftplugin$/;"	v
+s:undo_ftplugin	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^  let s:undo_ftplugin = b:undo_ftplugin$/;"	v
+s:undo_ftplugin	home/.vim/bundle/vim-haml/ftplugin/haml.vim	/^let s:undo_ftplugin = ""$/;"	v
+s:view_types	home/.vim/bundle/vim-rails/autoload/rails.vim	/^let s:view_types = 'rhtml,erb,rxml,builder,rjs,mab,liquid,haml,dryml,mn'$/;"	v
+s:visual_handlers	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:visual_handlers += [{'regexp': '-\\=\\<\\%(0x\\x\\+\\|\\d\\+\\)\\>', 'increment': s:function("s:numberincrement")}]$/;"	v
+s:visual_handlers	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:visual_handlers += [{'regexp': '\\<[A-Za-z]\\>', 'increment': s:function("s:letterincrement")}]$/;"	v
+s:visual_handlers	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^let s:visual_handlers = []$/;"	v
+sass.vim	home/.vim/bundle/vim-haml/ftplugin/sass.vim	1;"	F
+sass.vim	home/.vim/bundle/vim-haml/indent/sass.vim	1;"	F
+sass.vim	home/.vim/bundle/vim-haml/syntax/sass.vim	1;"	F
+saveScreenState	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:saveScreenState()$/;"	f
+scanlineforuris	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:scanlineforuris(line)$/;"	f
+scrub	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:scrub(collection,item)$/;"	f
+selectiveexpand	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:selectiveexpand(pat,good,default,...)$/;"	f
+send	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:send(self,func,...)$/;"	f
+setopt	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:setopt(opt,val)$/;"	f
+setupStatusline	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:setupStatusline()$/;"	f
+setupSyntaxHighlighting	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:setupSyntaxHighlighting()$/;"	f
+setvirtcol	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:setvirtcol(line,col)$/;"	f
+shellesc	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:shellesc(arg) abort$/;"	f
+shellslash	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:shellslash(path)$/;"	f
+showMenu	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:showMenu()$/;"	f
+snakecase	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:snakecase(word)$/;"	f
+sname	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:sname()$/;"	f
+sort	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:sort(a,b)$/;"	f
+specEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:specEdit(cmd,...)$/;"	f
+specList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:specList(A,L,P)$/;"	f
+speeddating.vim	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	1;"	F
+startswith	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:startswith(string,prefix)$/;"	f
+strftime	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:strftime(pattern,time)$/;"	f
+stripMarkupFromLine	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:stripMarkupFromLine(line, removeLeadingSpaces)$/;"	f
+stylesheetEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:stylesheetEdit(cmd,...)$/;"	f
+stylesheetList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:stylesheetList(A,L,P)$/;"	f
+stylesheetTag	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:stylesheetTag()$/;"	f
+sub	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:sub(str,pat,rep) abort$/;"	f
+sub	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:sub(str,pat,rep)$/;"	f
+sub	home/.vim/bundle/vim-rails/plugin/rails.vim	/^function! s:sub(str,pat,rep)$/;"	f
+subesc	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:subesc(pattern)$/;"	f
+substitute_command	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:substitute_command(cmd,bad,good,flags)$/;"	f
+subtype	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:subtype()$/;"	f
+subvert_dispatcher	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:subvert_dispatcher(bang,line1,line2,count,args)$/;"	f
+surround.vim	home/.vim/bundle/vim-surround/plugin/surround.vim	1;"	F
+synname	home/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! s:synname()$/;"	f
+tabpagevar	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:tabpagevar(tabnr, var)$/;"	f
+tagextras	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:tagextras()$/;"	f
+tango2.vim	home/.vim/colors/tango2.vim	1;"	F
+taskEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:taskEdit(cmd,...)$/;"	f
+taskList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:taskList(A,L,P)$/;"	f
+throw	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:throw(msg)$/;"	f
+throw	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:throw(string) abort$/;"	f
+timeregexp	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:timeregexp() dict$/;"	f
+timestamp	home/.vim/bundle/vim-speeddating/plugin/speeddating.vim	/^function! s:timestamp(utc,count)$/;"	f
+toggle	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggle(dir)$/;"	f
+toggleIgnoreFilter	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggleIgnoreFilter()$/;"	f
+toggleShowBookmarks	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggleShowBookmarks()$/;"	f
+toggleShowFiles	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggleShowFiles()$/;"	f
+toggleShowHidden	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggleShowHidden()$/;"	f
+toggleZoom	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggleZoom()$/;"	f
+toggleurlescape	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:toggleurlescape()$/;"	f
+togglexmlescape	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:togglexmlescape()$/;"	f
+treeExistsForBuf	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:treeExistsForBuf()$/;"	f
+treeExistsForTab	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:treeExistsForTab()$/;"	f
+try	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:try(cmd) abort$/;"	f
+u	home/.vim/bundle/vim-repeat/autoload/repeat.vim	/^nnoremap <silent> u     :<C-U>call <SID>wrap('u',v:count)<CR>$/;"	m
+unique	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:unique(list)$/;"	f
+unittestEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:unittestEdit(cmd,...)$/;"	f
+unittestList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:unittestList(A,L,P)$/;"	f
+unknown_coercion	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:unknown_coercion(letter,word)$/;"	f
+upDir	home/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:upDir(keepState)$/;"	f
+uppercase	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:uppercase(word)$/;"	f
+urlencode	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:urlencode(char)$/;"	f
+urlmap	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:urlmap(char)$/;"	f
+urltab	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:urltab(htmlesc)$/;"	f
+urlv	home/.vim/bundle/vim-ragtag/plugin/ragtag.vim	/^function! s:urlv()$/;"	f
+vibrantink.vim	home/.vim/colors/vibrantink.vim	1;"	F
+viewEdit	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:viewEdit(cmd,...)$/;"	f
+viewList	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:viewList(A,L,P)$/;"	f
+viewspattern	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:viewspattern()$/;"	f
+vividchalk.vim	home/.vim/colors/vividchalk.vim	1;"	F
+vylight.vim	home/.vim/colors/vylight.vim	1;"	F
+warn	home/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:warn(str)$/;"	f
+warn	home/.vim/bundle/vim-rails/autoload/rails.vim	/^function! s:warn(str)$/;"	f
+wombat.vim	home/.vim/colors/wombat.vim	1;"	F
+words	home/.vim/bundle/vim-abolish/plugin/abolish.vim	/^function! s:words()$/;"	f
+wrap	home/.vim/bundle/vim-repeat/autoload/repeat.vim	/^function! s:wrap(command,count)$/;"	f
+wrap	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:wrap(string,char,type,...)$/;"	f
+wrapreg	home/.vim/bundle/vim-surround/plugin/surround.vim	/^function! s:wrapreg(reg,char,...)$/;"	f
+xoria256.vim	home/.vim/colors/xoria256.vim	1;"	F
+yS	home/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap      yS   <Plug>YSurround$/;"	m
+ySS	home/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap      ySS  <Plug>YSsurround$/;"	m
+ySs	home/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap      ySs  <Plug>YSsurround$/;"	m
+ys	home/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap      ys   <Plug>Ysurround$/;"	m
+yss	home/.vim/bundle/vim-surround/plugin/surround.vim	/^  nmap      yss  <Plug>Yssurround$/;"	m

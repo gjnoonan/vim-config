@@ -7,7 +7,7 @@ set guifont=Inconsolata-dz:h14
 
 " no toolbar
 set guioptions-=T
-set guioptions-=l  " remove scrollbars
+set guioptions-=L  " remove scrollbars
 set guioptions-=r
 set guioptions-=b
 
