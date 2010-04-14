@@ -6,7 +6,7 @@ set vb   " No audible bell
 set guifont=Inconsolata-dz:h14
 
 " no toolbar
-set guioptions-=t
+set guioptions-=T
 set guioptions-=l  " remove scrollbars
 set guioptions-=r
 set guioptions-=b
@@ -14,6 +14,7 @@ set guioptions-=b
 " Use console dialogs
 set guioptions+=c
 set guitablabel=%t " set label for tab to just file name
+set guioptions-=e " non-gui tabs
 
 " }}}1
 " Section: OS Specific {{{1
