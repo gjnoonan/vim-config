@@ -20,6 +20,8 @@ call s:SetIfNotExist('g:xptemplate_nav_prev'            , '<S-Tab>'	)
 call s:SetIfNotExist('g:xptemplate_nav_cancel'          , '<cr>'	)
 call s:SetIfNotExist('g:xptemplate_goback'              , '<C-g>'	)
 call s:SetIfNotExist('g:xptemplate_to_right'            , '<C-l>'	)
+call s:SetIfNotExist('g:xptemplate_key_2'               ,  g:xptemplate_key	)
+call s:SetIfNotExist('g:xptemplate_nav_next_2'          ,  g:xptemplate_nav_next	)
 call s:SetIfNotExist('g:xptemplate_fallback'            , '<Plug>XPTrawKey'	)
 call s:SetIfNotExist('g:xptemplate_minimal_prefix'      , 1	)
 call s:SetIfNotExist('g:xptemplate_pum_tab_nav'         , 0	)
@@ -32,6 +34,7 @@ call s:SetIfNotExist('g:xptemplate_ph_pum_accept_empty' , 1	)
 call s:SetIfNotExist('g:xptemplate_vars'                , ''	)
 call s:SetIfNotExist('g:xptemplate_bundle'              , ''	)
 call s:SetIfNotExist('g:xptemplate_snippet_folders'     , []	)
+call s:SetIfNotExist('g:xptemplate_map'                 , ''	)
 call s:SetIfNotExist('g:xpt_post_action', '')
 if g:xptemplate_fallback == ''
     let g:xptemplate_fallback = '<NOP>'
@@ -48,6 +51,8 @@ unlet s:path
 unlet s:filename
 let g:XPTpvs = {}
 let g:XPTmappings = {
+      \ 'popup_old'     : "<C-v><C-v><BS><C-r>=XPTemplateStart(0,{'popupOnly':1})<cr>", 
+      \ 'trigger_old'   : "<C-v><C-v><BS><C-r>=XPTemplateStart(0)<cr>", 
       \ 'popup'         : "<C-r>=XPTemplateStart(0,{'popupOnly':1})<cr>", 
       \ 'trigger'       : "<C-r>=XPTemplateStart(0)<cr>", 
       \ 'wrapTrigger'   : "\"0s<C-r>=XPTemplatePreWrap(@0)<cr>", 
@@ -63,6 +68,11 @@ exe "inoremap <silent>" g:xptemplate_key           g:XPTmappings.trigger
 exe "xnoremap <silent>" g:xptemplate_key           g:XPTmappings.wrapTrigger
 exe "snoremap <silent>" g:xptemplate_key           g:XPTmappings.selTrigger
 exe "inoremap <silent>" g:xptemplate_key_pum_only  g:XPTmappings.popup
+if g:xptemplate_key_2 != g:xptemplate_key
+    exe "inoremap <silent>" g:xptemplate_key_2           g:XPTmappings.trigger
+    exe "xnoremap <silent>" g:xptemplate_key_2           g:XPTmappings.wrapTrigger
+    exe "snoremap <silent>" g:xptemplate_key_2           g:XPTmappings.selTrigger
+endif
 let s:pvs = split(g:xptemplate_vars, '\V'.s:ep.'&')
 for s:v in s:pvs
   let s:key = matchstr(s:v, '\V\^\[^=]\*\ze=')
@@ -89,6 +99,7 @@ for ftAndBundle in s:bundle
     let g:xptBundle[ ft ][ bundle ] = 1
 endfor
 fun! g:XPTaddBundle(ft, bundle) 
+    call XPTemplateInit()
     let g:xptBundle[ a:ft ] = get( g:xptBundle, a:ft, {} )
     let g:xptBundle[ a:ft ][ a:bundle ] = 1
     call XPTembed( a:ft . '/' . a:bundle )
@@ -130,11 +141,11 @@ augroup XPTftInit
   au FileType * call XPTfiletypeInit()
 augroup END
 if g:xptemplate_brace_complete
-    inoremap <silent> ( <C-r>=XPTtgr('(',{'noliteral':1,'k':'('})<cr>
-    inoremap <silent> [ <C-r>=XPTtgr('[',{'noliteral':1,'k':'['})<cr>
-    inoremap <silent> { <C-r>=XPTtgr('{',{'noliteral':1,'k':'{'})<cr>
-    inoremap <silent> ' <C-r>=XPTtgr('''',{'noliteral':1,'k':''''})<cr>
-    inoremap <silent> " <C-r>=XPTtgr('"',{'noliteral':1,'k':'"'})<cr>
+    inoremap <silent> ( <C-v><C-v><BS><C-r>=XPTtgr('(',{'noliteral':1,'k':'('})<cr>
+    inoremap <silent> [ <C-v><C-v><BS><C-r>=XPTtgr('[',{'noliteral':1,'k':'['})<cr>
+    inoremap <silent> { <C-v><C-v><BS><C-r>=XPTtgr('{',{'noliteral':1,'k':'{'})<cr>
+    inoremap <silent> ' <C-v><C-v><BS><C-r>=XPTtgr('''',{'noliteral':1,'k':''''})<cr>
+    inoremap <silent> " <C-v><C-v><BS><C-r>=XPTtgr('"',{'noliteral':1,'k':'"'})<cr>
 endif
 let bs=&bs
 if bs != 2 && bs !~ "start" 
